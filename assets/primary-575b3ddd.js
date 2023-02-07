@@ -134,7 +134,7 @@ PERFORMANCE OF THIS SOFTWARE.
             w-full flex py-7
         `,children:[ge("section",{className:`
                 w-1/3 h-full flex flex-col justify-center items-center py-4
-            `,children:[z("img",{src:"../ImgPlaceholder.png",alt:"Placeholder image green gumdrop blob with cute eyes",className:`
+            `,children:[z("img",{src:"./ImgPlaceholder.png",alt:"Placeholder image green gumdrop blob with cute eyes",className:`
                     w-3/4 
                 `}),z("p",{className:`
                     font-bold text-xl text-lime-500
@@ -164,7 +164,7 @@ PERFORMANCE OF THIS SOFTWARE.
             w-full
         `,children:ge("div",{className:`
                 w-full h-3/4 grid grid-cols-4 items-center justify-items-center
-            `,children:[z(ai,{source:"../Cognitive-Behavioral-Therapy-CBT.png",heading:"Cognitive Behavioral Therapy CBT",bgNum:1}),z(ai,{source:"../Dialetical-Behavioral-Therapy-DBT.png",heading:"Dialetical Behavioral Therapy DBT",bgNum:2}),z(ai,{source:"../Puzzle.jpg",heading:"Solution Focused Brief Therapy SFBT",bgNum:1}),z(ai,{source:"../psychodynamic.jpg",heading:"Psycho-Dynamic Therapy",bgNum:2})]})}),Vm=()=>ge("div",{className:`
+            `,children:[z(ai,{source:"./Cognitive-Behavioral-Therapy-CBT.png",heading:"Cognitive Behavioral Therapy CBT",bgNum:1}),z(ai,{source:"./Dialetical-Behavioral-Therapy-DBT.png",heading:"Dialetical Behavioral Therapy DBT",bgNum:2}),z(ai,{source:"./Puzzle.jpg",heading:"Solution Focused Brief Therapy SFBT",bgNum:1}),z(ai,{source:"./psychodynamic.jpg",heading:"Psycho-Dynamic Therapy",bgNum:2})]})}),Vm=()=>ge("div",{className:`
             h-full bg-gradient-to-br from-fuchsia-50 to-violet-50
         `,children:[z(Fm,{}),ge("main",{className:`
                 w-full h-auto flex flex-col items-center
