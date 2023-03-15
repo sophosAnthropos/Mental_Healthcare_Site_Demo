@@ -1,7 +1,7 @@
 import { useState } from 'react'
+import { About } from '../Pages/About'
+import { Contact } from '../Pages/Contact'
 import { Landing } from '../Pages/Landing'
-import { SiteFooter } from './FooterComponents/Footer'
-import { SiteHeader } from './HeaderComponents/header'
 
 function App() {
   

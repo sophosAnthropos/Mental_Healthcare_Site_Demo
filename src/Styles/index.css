@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Caveat:wght@400;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Neonderthaw&family=Tangerine:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -14,10 +14,58 @@
         margin: 0;
     }
 
+    /* 
+
+        font-family: 'Carrois Gothic SC', sans-serif;
+
+        font-family: 'Caveat', cursive;
+
+        font-family: 'Josefin Sans', sans-serif;
+
+        font-family: 'Neonderthaw', cursive;
+
+        font-family: 'Tangerine', cursive;
+
+    */
+
+    .ezRead {
+        font-family: 'Josefin Sans', Helvetica, sans-serif;
+    }
+
+    .cuteScript {
+        font-family: 'Caveat', cursive;
+    }
+
+    .emergencyText {
+        font-family: 'Carrois Gothic SC', sans-serif;
+    }
+
+    .elegantText {
+        font-family: 'Tangerine', cursive;
+    }
 
 }
 
 @layer components {
 
-    
+    .AbtContainer {
+        @apply relative overflow-hidden z-20 rounded-[50px]
+    }
+
+    .AbtContainer::before {
+        content: "";
+        background-image: conic-gradient(
+            transparent 280deg,
+            #cfabff 335deg,
+            #ffa9ff 355deg
+        );
+        animation: rotate 2s infinite linear;
+        @apply w-[200%] h-[300%] absolute left-[-50%] top-[-95%] z-10
+    }
+
+    @keyframes rotate {
+        100%{
+            transform: rotate(360deg);
+        }
+    }
 }

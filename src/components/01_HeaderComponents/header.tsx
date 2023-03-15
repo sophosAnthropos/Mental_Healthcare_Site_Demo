@@ -8,13 +8,13 @@ export const SiteHeader = () => {
   return (
     <header
         className={`
-            h-[10rem] flex flex-col relative
+            w-full h-[10rem] flex flex-col fixed z-40
         `}
     >
         <TopInfoBar/>
         <div
             className={`
-               h-[8rem] flex justify-between bg-violet-100
+               h-[8rem] flex justify-between
             `}  
         >
             <TitleSection/>

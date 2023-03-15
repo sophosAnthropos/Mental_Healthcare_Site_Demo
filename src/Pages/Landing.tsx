@@ -1,14 +1,16 @@
 import React from 'react'
-import { SiteFooter } from '../components/FooterComponents/Footer'
-import { SiteHeader } from '../components/HeaderComponents/header'
-import { Introduction } from '../components/LandingComponents/Introduction'
-import { ProgramSummeries } from '../components/LandingComponents/ProgramSummeries'
+import { SiteFooter } from '../components/02_FooterComponents/Footer'
+import { SiteHeader } from '../components/01_HeaderComponents/header'
+import { Introduction } from '../components/03_LandingComponents/Introduction'
+import { ProgramSummeries } from '../components/03_LandingComponents/ProgramSummeries'
+import { ListOfStruggles } from '../components/03_LandingComponents/ListOfStruggles'
+import { Coverage } from '../components/03_LandingComponents/Coverage'
 
 export const Landing = (): JSX.Element => {
   return (
     <div
         className={`
-            h-full bg-gradient-to-br from-fuchsia-50 to-violet-50
+            h-full bg-purple-50
         `}
     >
         <SiteHeader />
@@ -20,7 +22,7 @@ export const Landing = (): JSX.Element => {
             <Introduction />
             <section
                 className={`
-                    w-[95%] mb-5
+                    w-[95%] mb-5 
                 `}
             >
                 <div
@@ -30,13 +32,15 @@ export const Landing = (): JSX.Element => {
                 >
                     <h2
                         className={`
-                            w-[99%] h-[88%]  text-6xl text-violet-50 font-bold flex justify-center items-center border-2 border-violet-300
+                            w-[99%] h-[88%]  text-6xl text-violet-50 font-bold flex justify-center items-center border-2 border-violet-300 ez
                         `}
                     >
                         THERAPIES
                     </h2>
                 </div>
                 <ProgramSummeries />
+                <ListOfStruggles />
+                <Coverage />
             </section>
         </main>
         <SiteFooter />

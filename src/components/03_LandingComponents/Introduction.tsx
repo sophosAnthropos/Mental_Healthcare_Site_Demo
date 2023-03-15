@@ -4,7 +4,7 @@ export const Introduction = ():JSX.Element => {
   return (
     <div
         className={`
-            w-full flex py-7
+            w-full h-[600px] flex py-7
         `}
     >
         <section
@@ -27,7 +27,7 @@ export const Introduction = ():JSX.Element => {
         </section>
         <article
             className={`
-                w-[65%] flex items-center overflow-hidden relative my-3 mx-6 rounded-br-2xl easyRead
+                w-[65%] flex items-center overflow-hidden relative my-3 mx-6 rounded-br-2xl ezRead
             `}
         >
             <div
@@ -37,22 +37,36 @@ export const Introduction = ():JSX.Element => {
             >
                 <div
                     className={`
-                        w-full h-[98%] flex flex-col items-center justify-center absolute top-0 left-[-.75%] bg-violet-50 rounded-br-xl
+                        w-full h-[98.5%] flex flex-col items-center justify-center absolute top-0 left-[-.75%] bg-purple-50 rounded-br-xl
                     `}
                 >
                     <h2
                         className={`
-                            w-4/5 h-1/4 flex items-center justify-center text-5xl capitalize  font-bold text-blue-500
+                            w-4/5 h-1/4 flex items-center justify-center text-5xl capitalize  font-bold text-blue-500 italic
                         `}
                     >
                         One Person Can Make A Difference
                     </h2>
                     <p
                         className={`
-                            w-4/5 h-[2/3] text-lg tracking-wide leading-8 text-violet-700 py-3 px-5
+                            w-4/5 text-lg tracking-wide leading-7 text-violet-600 py-2 px-4
                         `}
                     >
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veritatis at unde perspiciatis omnis nesciunt explicabo hic molestias cupiditate molestiae deleniti nam obcaecati, necessitatibus in fugit officia eligendi debitis voluptates ea voluptatibus consequatur eum eaque. Asperiores beatae ullam repellat, commodi consectetur earum exercitationem quod laborum facilis nam quisquam! Impedit illum repellendus nisi architecto officiis? Deserunt animi repellat omnis quisquam quis doloremque alias magnam cumque!
+                        Currently, in your life, you are experiencing insurmountable hardships, irresistible impulses, or neurological imbalances.  You've decided to fight back, said "NO MORE!", & with your hand extended for help, you have found yourself here. 
+                    </p>
+                    <p
+                        className={`
+                            w-4/5 text-lg tracking-wide leading-7 text-lime-600 py-2 px-4
+                        `}
+                    >
+                        Rest assured, the help you seek awaits you with Caren Stewart.  As the guide for your journey, she will endow you with the skills that will get you to a destination you've longed to reach. Caren provides a sanctuary & an ear, so that you have a safe private eden to unload the troubles plaguing your mind & heart.  
+                    </p>
+                    <p
+                        className={`
+                            w-4/5 text-lg tracking-wide leading-7 text-blue-600 py-3 px-4
+                        `}
+                    >
+                        Caren's honed experience & expertise, combined with impartial kindness, makes her someone who can make a difference. Reach out, so that she may impart on you the abilities needed to make you someone who can make a difference too.   
                     </p>
                 </div>
             </div>

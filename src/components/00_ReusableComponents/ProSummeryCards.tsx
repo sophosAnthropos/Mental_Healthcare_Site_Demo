@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ProSummeryCards = ({source, heading, bgNum}: {source: string, heading: string, bgNum:number}): JSX.Element => {
+export const ProSummeryCards = ({source, heading, bgNum, imgStyles}: {source: string, heading: string, bgNum: number, imgStyles: string}): JSX.Element => {
 
     
   return (
@@ -11,14 +11,14 @@ export const ProSummeryCards = ({source, heading, bgNum}: {source: string, headi
     >
         <div
             className={`
-                h-[40%]
+                h-[40%] bg-blue-900 flex items-center justify-center
             `}
         >
             <img 
                 src={source} 
                 alt="generic psych image" 
                 className={`
-                    w-full h-full
+                    ${imgStyles}
                 `}
             />
         </div>
