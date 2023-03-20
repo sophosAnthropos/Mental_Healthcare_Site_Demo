@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom"
+
 export const TitleSection = () => {
 
     return (
-        <section
+        <Link
+            to="/"
             className={`
                    w-1/6 h-full flex flex-col items-center p-4 easyRead tracking-wider
                 `}
@@ -28,6 +31,6 @@ export const TitleSection = () => {
                 ASSOCIATES
             </h1>
 
-        </section>
+        </Link>
     )
 }

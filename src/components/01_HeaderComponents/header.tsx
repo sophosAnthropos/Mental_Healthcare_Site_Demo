@@ -8,7 +8,7 @@ export const SiteHeader = () => {
   return (
     <header
         className={`
-            w-full h-[10rem] flex flex-col fixed z-40
+            w-full h-[10rem] flex flex-col relative z-40
         `}
     >
         <TopInfoBar/>

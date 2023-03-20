@@ -1,6 +1,3 @@
-import React from 'react'
-import { SiteFooter } from '../components/02_FooterComponents/Footer'
-import { SiteHeader } from '../components/01_HeaderComponents/header'
 import { Introduction } from '../components/03_LandingComponents/Introduction'
 import { ProgramSummeries } from '../components/03_LandingComponents/ProgramSummeries'
 import { ListOfStruggles } from '../components/03_LandingComponents/ListOfStruggles'
@@ -8,17 +5,7 @@ import { Coverage } from '../components/03_LandingComponents/Coverage'
 
 export const Landing = (): JSX.Element => {
   return (
-    <div
-        className={`
-            h-full bg-purple-50
-        `}
-    >
-        <SiteHeader />
-        <main
-            className={`
-                w-full h-auto flex flex-col items-center
-            `}
-        >
+        <>
             <Introduction />
             <section
                 className={`
@@ -42,8 +29,6 @@ export const Landing = (): JSX.Element => {
                 <ListOfStruggles />
                 <Coverage />
             </section>
-        </main>
-        <SiteFooter />
-    </div>
+        </>
   )
 }

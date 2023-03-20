@@ -4,7 +4,7 @@ export const ContactForm = () => {
   return (
         <section
             className={`
-                w-1/2 h-full bg-lime-100 flex flex-col items-center justify-evenly
+                w-1/2 h-full bg-white flex flex-col items-center justify-evenly
             `}
         >
                 <header
@@ -29,11 +29,11 @@ export const ContactForm = () => {
                 <div className={`
                     w-full h-1/6 flex justify-center items-center
                 `}>
-                    <label className={`fa-solid fa-user mr-3 text-2xl text-blue-400`}></label>
+                    <label className={`fa-solid fa-user mr-3 text-2xl text-blue-500`}></label>
                     <input 
                         className={`
-                            w-1/2 h-1/2 rounded-lg pl-3 pt-1 bg-purple-200 text-xl font-bold ezRead text-blue-400 placeholder:text-blue-300 
-                            focus:placeholder:text-blue-100 focus:text-lime-50 focus:bg-purple-300 
+                            w-1/2 h-1/2 rounded-lg pl-3 pt-1 bg-purple-200 text-xl font-bold ezRead text-blue-500 placeholder:text-blue-400 
+                            focus:placeholder:text-blue-100 focus:text-lime-50 focus:bg-purple-400 
                             focus:outline-none focus:border-2 focus:border-purple-600
                         `} 
 
@@ -45,12 +45,12 @@ export const ContactForm = () => {
                 <div className={`
                     w-full h-1/6 flex justify-center items-center
                 `}>
-                    <label className={`fa-solid fa-envelope mr-3 text-2xl text-blue-400`}></label>
+                    <label className={`fa-solid fa-envelope mr-3 text-2xl text-blue-500`}></label>
                 
                     <input 
                         className={`
-                            w-1/2 h-1/2 rounded-lg pl-3 pt-1 bg-purple-200 text-xl font-bold ezRead text-blue-400 placeholder:text-blue-300 
-                            focus:placeholder:text-blue-100 focus:text-lime-50 focus:bg-purple-300 
+                            w-1/2 h-1/2 rounded-lg pl-3 pt-1 bg-purple-200 text-xl font-bold ezRead text-blue-500 placeholder:text-blue-400 
+                            focus:placeholder:text-blue-100 focus:text-lime-50 focus:bg-purple-400 
                             focus:outline-none focus:border-2 focus:border-purple-600
                         `} 
                         
@@ -64,7 +64,7 @@ export const ContactForm = () => {
                 `}>
                     <textarea 
                         className={`
-                            w-3/4 h-[90%] rounded-lg pl-3 pt-3 bg-purple-200 text-xl font-bold ezRead text-blue-400 placeholder:text-blue-300 
+                            w-3/4 h-[90%] rounded-lg pl-3 pt-3 bg-purple-200 text-xl font-bold ezRead text-blue-400 placeholder:text-blue-400 
                             focus:placeholder:text-blue-100 focus:text-lime-50 focus:bg-purple-300 
                             focus:outline-none focus:border-2 focus:border-purple-600
                         `} 

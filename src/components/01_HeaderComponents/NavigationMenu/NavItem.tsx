@@ -1,6 +1,7 @@
 import { SubMenu } from "./NavItemSubMenu"
+import { Link } from "react-router-dom"
 
-export const NavItem = ({menuItem}: {menuItem: JSX.Element}): JSX.Element => {
+export const NavItem = ({children}: {children: JSX.Element}): JSX.Element => {
 
     return (
         <li
@@ -9,13 +10,7 @@ export const NavItem = ({menuItem}: {menuItem: JSX.Element}): JSX.Element => {
             `}
         >
             <SubMenu>
-                <a href="#"
-                    className={`
-                        w-full h-full cuteScript tracking-wide text-2xl text-violet-800 flex flex-col items-center justify-center group-hover/openSub:text-violet-50
-                    `}
-                >
-                    {menuItem}
-                </a>
+                {children}
             </SubMenu>
         </li>
     )

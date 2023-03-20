@@ -4,7 +4,7 @@ export const ContactInfoCard = () => {
   return (
         <section
             className={`
-                w-1/2 h-full flex justify-center items-center bg-gradient-to-bl from-purple-50 to-purple-300
+                w-1/2 h-full flex justify-center items-center bg-gradient-to-bl from-purple-100 to-purple-400
             `}
         >
             <div

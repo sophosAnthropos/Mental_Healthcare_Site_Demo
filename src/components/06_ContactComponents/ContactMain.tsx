@@ -13,7 +13,7 @@ export const ContactMain = () => {
     >
         <div
           className={`
-            w-[99.5%] h-[98.6%] bg-purple-100 rounded-[45px]
+            w-[99.3%] h-[98.6%] bg-purple-100 rounded-[45px]
             relative top-[50%] left-[50%] overflow-hidden
             translate-x-[-50%] translate-y-[-50%] z-20
           `}

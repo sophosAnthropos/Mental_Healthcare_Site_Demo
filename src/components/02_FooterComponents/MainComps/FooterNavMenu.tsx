@@ -45,10 +45,11 @@ export const FooterNavMenu = () => {
                     >
                         <a href="#"
                             className={`
-                                 w-full flex justify-start
+                                 w-full flex flex-col justify-start
                             `}
                         >
-                            Between Sessions
+                            <p>Between</p>
+                            <p>Sessions</p>
                         </a>
                     </li>
                     <li
