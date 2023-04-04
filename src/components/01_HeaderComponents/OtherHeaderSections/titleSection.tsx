@@ -6,26 +6,34 @@ export const TitleSection = () => {
         <Link
             to="/"
             className={`
-                   w-1/6 h-full flex flex-col items-center p-4 easyRead tracking-wider
+                    w-3/5 h-full flex flex-col items-center justify-center easyRead tracking-wider
+
+                    sm:w-1/5 sm:p-4 sm:justify-start
                 `}
         >
             <h1
                 className={`
-                    text-violet-800 text-3xl font-semibold
+                    text-violet-800 text-xl font-bold
+                    
+                    sm:text-3xl sm:font-semibold 
                 `}
             >
                 CAREN STEWART
             </h1>
             <p
                 className={`
-                    text-violet-800 text-2xl font-semibold
+                    text-violet-800 text-lg font-bold
+                    
+                    sm:text-2xl sm:font-semibold 
                 `}
             >
                 &
             </p>
             <h1
                 className={`
-                text-violet-800 text-3xl font-semibold 
+                text-violet-800 text-xl font-bold
+                
+                sm:text-3xl sm:font-semibold  
             `}
             >
                 ASSOCIATES

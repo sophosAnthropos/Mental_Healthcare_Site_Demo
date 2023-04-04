@@ -3,17 +3,22 @@ export const AddressAndPhone = () => {
     return (
         <section
                 className={`
-                    w-1/4 h-[85%] flex flex-col justify-evenly border-l-4 border-t-4 rounded-tl-xl border-purple-800  fa-solid
+                    w-[98%] h-1/3 text-purple-900 font-bold tracking-widest text-sm mt-1 flex flex-col justify-evenly border-l-4 border-t-4 rounded-tl-xl border-purple-800 fa-solid
+
+                    sm:w-1/4 sm:h-[85%] sm:text-xl sm:mt-0 
                 `}
             >
                 <div
                     className={`
-                        h-1/3 flex justify-center
+                        h-1/2
+                        sm:h-1/3 flex justify-center
                     `}
                 >
                     <div
                         className={`
-                            w-[5%] h-2/3
+                            w-[4%]
+
+                            sm:w-[5%] sm:h-2/3
                         `}
                     >
                         <img 
@@ -26,7 +31,8 @@ export const AddressAndPhone = () => {
                     </div>
                     <div
                         className={`
-                            w-[85%] h-full font-bold text-purple-900 text-xl tracking-wider pl-[1px]
+                            w-[85%] h-full
+                            sm:w-[85%] sm:pl-[1px]
                         `}
                     >
                         <p
@@ -43,7 +49,8 @@ export const AddressAndPhone = () => {
                 </div>
                 <p
                     className={`
-                        w-[60%] h-1/5 text-purple-900 text-xl font-bold text-center tracking-wider
+                        w-[55%] 
+                        sm:w-[60%] h-1/5  text-center
                     `}
                 >
                     <span className={`fa-solid fa-phone pr-4`}></span>

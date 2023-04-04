@@ -9,7 +9,9 @@ export const NavMenu = (): JSX.Element => {
     return (
         <nav
             className={`
-                w-1/2 h-full relative
+                hidden
+
+                sm:w-1/2 sm:h-full sm:relative sm:block
             `}
         >
             <ul

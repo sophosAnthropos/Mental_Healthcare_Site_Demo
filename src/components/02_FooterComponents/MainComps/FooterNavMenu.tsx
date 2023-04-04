@@ -4,12 +4,14 @@ export const FooterNavMenu = () => {
     return (
         <section
                 className={`
-                    w-1/4 h-[80%] border-b-4 border-r-4 border-purple-800 rounded-br-xl flex justify-end
+                    w-[98%] h-1/3 mb-1 border-b-4 border-r-4 border-purple-800 rounded-br-xl flex justify-end
+                    sm:w-1/4 sm:h-[80%] sm:mb-0 
                 `}
             >
                 <ul
                     className={`
-                        w-[95%] h-full grid grid-cols-2 fa-solid tracking-widest text-lg text-blue-700
+                        w-[95%] h-full grid grid-cols-3 fa-solid tracking-widest text-sm text-blue-700
+                        sm:text-lg sm:grid-cols-2
                     `}
                 >
                     <li
@@ -46,6 +48,7 @@ export const FooterNavMenu = () => {
                         <a href="#"
                             className={`
                                  w-full flex flex-col justify-start
+                                 
                             `}
                         >
                             <p>Between</p>

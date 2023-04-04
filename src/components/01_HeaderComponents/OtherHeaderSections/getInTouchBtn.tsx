@@ -4,16 +4,19 @@ export const GetInTouchBtn = () => {
   return (
     <div
         className={`
-            w-1/6 flex items-center
+            w-1/3 h-full flex items-center
+        
+            sm:w-1/5 
         `}
     >
         <button
             className={`
+                            
+                h-2/3 bg-blue-400 rounded-2xl shadow-md text-blue-50 font-bold easyRead px-2
                 
-            
-                w-2/3 h-2/3 bg-blue-400 rounded-2xl shadow-md text-blue-50 font-bold text-2xl easyRead 
-                
-                hover:bg-white hover:text-[#7cd3ff] hover:border-2 hover:border-blue-200 hover:BtnHoverShadow hover:font-bold 
+
+                sm:w-2/3 sm:text-2xl
+                sm:hover:bg-white sm:hover:text-[#7cd3ff] sm:hover:border-2 sm:hover:border-blue-200 sm:hover:BtnHoverShadow sm:hover:font-bold 
             `}
         >
             Get In Touch

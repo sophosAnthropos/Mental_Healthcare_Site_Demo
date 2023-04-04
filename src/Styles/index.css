@@ -44,6 +44,11 @@
         font-family: 'Tangerine', cursive;
     }
 
+
+    .SPH_Text {
+        font-size: clamp(.7rem, 1.8vw, 1.2rem);
+    }
+
 }
 
 @layer components {
