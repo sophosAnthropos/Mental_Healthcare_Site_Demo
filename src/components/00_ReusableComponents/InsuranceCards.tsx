@@ -4,7 +4,9 @@ export const InsuranceCards = ({source, heights}: {source: string, heights: stri
     return (
         <div
             className={`
-                w-[90%] h-[150px] flex justify-center items-center
+                w-[80%] h-[100px] flex justify-center items-center
+
+                sm:w-[90%] sm:h-[150px]
             `}
         >
             <img 

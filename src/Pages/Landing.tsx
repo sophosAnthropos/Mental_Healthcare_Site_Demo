@@ -9,7 +9,9 @@ export const Landing = (): JSX.Element => {
             <Introduction />
             <section
                 className={`
-                    w-[95%] mb-5 
+                    mb-5
+                    
+                    sm:w-[95%]
                 `}
             >
                 <div
@@ -19,7 +21,10 @@ export const Landing = (): JSX.Element => {
                 >
                     <h2
                         className={`
-                            w-[99%] h-[88%]  text-6xl text-violet-50 font-bold flex justify-center items-center border-2 border-violet-300 ez
+                            w-[97%] h-[88%]  text-6xl text-violet-50 font-bold flex justify-center items-center border-2 border-violet-300 ez
+
+                            sm:w-[99%]
+                            
                         `}
                     >
                         THERAPIES

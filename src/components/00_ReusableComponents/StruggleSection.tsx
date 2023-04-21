@@ -32,7 +32,9 @@ export const StruggleSection = ({section, children}: {section: string, children:
             >
                 <h2
                     className={`
-                        ezRead text-6xl tracking-wider font-thin text-purple-700 underline
+                        ezRead text-4xl tracking-wider font-thin text-purple-700 underline
+
+                        sm:text-6xl
                     `}
                 >
                     {section}
@@ -40,7 +42,9 @@ export const StruggleSection = ({section, children}: {section: string, children:
             </header>
             <div
                 className={`
-                    w-full h-[85%] grid grid-cols-4 place-items-center
+                    w-full px-2 grid grid-cols-2 gap-1
+
+                    sm:h-[85%] sm:grid-cols-4 sm:place-items-center sm:px-0 sm:gap-0
                 `}
             >
                 {children}

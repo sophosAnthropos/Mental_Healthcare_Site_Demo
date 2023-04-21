@@ -4,19 +4,21 @@ import { Link } from "react-router-dom"
 
 
 
-export const NavMenu = (): JSX.Element => {
+export const NavMenu = ({open}: {open: boolean}): JSX.Element => {
 
     return (
         <nav
             className={`
-                hidden
+                fixed top-0 z-[399] backdrop-blur-xl w-full h-full ${open ? "block" : "hidden"}
 
                 sm:w-1/2 sm:h-full sm:relative sm:block
             `}
         >
             <ul
                 className={`
-                   h-full flex justify-around items-center relative
+                   h-full flex ${open ? "flex-col justify-center" : "flex-none"} relative
+                   
+                   sm:flex-row sm:justify-around sm:items-center 
                 `}
             >
                 

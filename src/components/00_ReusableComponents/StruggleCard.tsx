@@ -24,12 +24,16 @@ export const StruggleCard = ({struggle, category}: {struggle: string, category: 
   return (
     <div
         className={`
-            ${cat} w-[400px] h-[75px] rounded-[50px] rounded-bl-[0px] shadow-md shadow-neutral-500 hover:scale-[105%] hover:shadow-neutral-400
+            ${cat} w-full h-[55px] 
+
+            sm:w-[400px] sm:h-[75px] sm:rounded-[50px] sm:rounded-bl-[0px] sm:shadow-md sm:shadow-neutral-500 sm:hover:scale-[105%] sm:hover:shadow-neutral-400
         `}
     >
         <p
             className={`
-                h-full flex justify-center items-center text-xl ezRead text-purple-700
+                h-full flex justify-center items-center text-sm ezRead text-purple-700 text-center
+                
+                sm:text-lg
             `}
         >
             {struggle}

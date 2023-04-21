@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { GetInTouchBtn } from './OtherHeaderSections/getInTouchBtn'
 import { NavMenu } from './NavigationMenu/Nav'
 import { TitleSection } from './OtherHeaderSections/titleSection'
 import { TopInfoBar } from './OtherHeaderSections/topInfoBar'
 
 export const SiteHeader = () => {
+    const [open, setOpen] = useState(false)
+
   return (
     <header
         className={`
             flex flex-col 
-            sm:w-full sm:h-[10rem] sm:relative sm:z-40
+            sm:w-full sm:h-[10rem] 
         `}
     >
         <TopInfoBar/>
@@ -22,13 +24,16 @@ export const SiteHeader = () => {
         >
             <TitleSection/>
             <button 
+                onClick={()=>{setOpen(!open)}}
                 className={`
-                    w-[5rem] h-[5rem] fa-solid fa-bars fixed top-[-1.7rem] right-[-1.7rem] bg-lime-200 flex items-end rounded-bl-[65%] text-violet-700 text-2xl pl-6 pb-4
+                    w-[2rem] h-[2rem] fixed top-4 right-5 text-lime-400 text-2xl z-[400] ${open ? "fa-solid fa-times" : "fa-solid fa-bars"}
 
                     sm:hidden
                 `}
             />
-            <NavMenu/>
+            <NavMenu
+                open = {open}
+            />
             <GetInTouchBtn/>
         </div>
 

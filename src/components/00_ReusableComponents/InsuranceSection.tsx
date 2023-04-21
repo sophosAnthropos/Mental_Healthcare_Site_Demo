@@ -5,7 +5,9 @@ export const InsuranceSection = () => {
     return (
         <section
                 className={`
-                    w-[69%] h-full flex flex-col justify-center ezRead
+                    w-full h-[600px] flex flex-col ezRead pt-5
+
+                    sm:w-[69%] sm:h-full sm:justify-center sm:pt-0
                 `}
             >
                 <div
@@ -19,12 +21,16 @@ export const InsuranceSection = () => {
                 </div>
                 <div
                     className={`
-                        h-4/5
+                        h-1/2
+                    
+                        sm:h-4/5
                     `}
                 >
                     <div
                         className={`
-                            w-full h-full grid grid-cols-3 justify-items-center place-items-center
+                            w-full h-full grid grid-cols-2 justify-items-center place-items-center
+
+                            sm:grid-cols-3 sm:h-full
                         `}
                     >
                         <InsuranceCards 

@@ -15,6 +15,7 @@ export const App = (): JSX.Element => {
               
         `}>
             <SiteHeader/>
+            <MainContent/>
             <SiteFooter/>
         </div>
     </BrowserRouter>

@@ -16,7 +16,9 @@ export const ListOfStruggles = () => {
         >
             <h2
                 className={`
-                    w-[75%] h-[94%] text-6xl text-lime-400  flex justify-center items-center ezRead
+                    w-[75%] h-[94%] text-4xl text-lime-400  flex justify-center items-center ezRead text-center
+
+                    sm:text-6xl
                 `}
             >
                 WHAT WE HELP YOU OVERCOME
