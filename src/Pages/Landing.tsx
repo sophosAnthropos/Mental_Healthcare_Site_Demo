@@ -1,7 +1,7 @@
-import { Introduction } from '../components/03_LandingComponents/Introduction'
-import { ProgramSummeries } from '../components/03_LandingComponents/ProgramSummeries'
-import { ListOfStruggles } from '../components/03_LandingComponents/ListOfStruggles'
-import { Coverage } from '../components/03_LandingComponents/Coverage'
+import { Introduction } from '../components/03_LandingComponents/01_Introduction'
+import { ProgramSummeries } from '../components/03_LandingComponents/02_ProgramSummeries'
+import { ListOfStruggles } from '../components/03_LandingComponents/03_ListOfStruggles'
+import { Coverage } from '../components/03_LandingComponents/04_Coverage'
 
 export const Landing = (): JSX.Element => {
   return (

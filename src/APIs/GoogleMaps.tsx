@@ -1,7 +1,7 @@
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
 
-
-const coords= {lat: 33.83750321536022, lng: -79.05877370674344}
+//The coordinates are just from some arbitrary spot in central park new york city
+const coords= {lat: 40.776004, lng: -73.966548}
 const id = "4e1faeeeaaf137b1"
 
 export const TheMap = (): JSX.Element => {

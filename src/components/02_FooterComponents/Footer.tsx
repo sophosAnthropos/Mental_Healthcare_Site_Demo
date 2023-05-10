@@ -12,7 +12,8 @@ export const SiteFooter = (): JSX.Element => {
         >
             <div 
                 className={`
-                    h-[60%] border-t-2 border-violet-800
+                    h-[45%]
+                    sm:h-[60%] border-t-2 border-violet-800
                 `}
             >
                 <TheMap/>

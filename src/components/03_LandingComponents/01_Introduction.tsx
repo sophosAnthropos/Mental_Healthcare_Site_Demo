@@ -13,7 +13,7 @@ export const Introduction = ():JSX.Element => {
             className={`
                 h-[36%] flex flex-col items-center py-4
 
-                sm:w-1/3 sm:justify-center sm:h-full
+                sm:w-1/3 sm:h-full sm:justify-center 
             `}
         >
             <img 
@@ -34,7 +34,7 @@ export const Introduction = ():JSX.Element => {
             className={`
                 w-full h-[64%] flex relative ezRead overflow-hidden
 
-                sm:w-[65%] sm:items-center sm:my-3 sm:mx-6 sm:rounded-br-2xl
+                sm:w-[65%] sm:h-full sm:items-center sm:my-3 sm:mx-6 sm:rounded-br-2xl
             `}
         >
             <div
@@ -53,10 +53,10 @@ export const Introduction = ():JSX.Element => {
                         className={`
                             w-full h-[10%] flex items-center justify-center text-xl capitalize  font-bold text-blue-500 italic bg-purple-200
 
-                            sm:w-4/5 sm:h-1/4 sm:text-5xl
+                            sm:w-4/5 sm:h-1/4 sm:text-5xl sm:bg-inherit
                         `}
                     >
-                        One Person Can Make A Difference
+                        Let's Make A Difference
                     </h2>
                     <p
                         className={`
@@ -74,7 +74,7 @@ export const Introduction = ():JSX.Element => {
                             sm:w-4/5 sm:text-lg sm:px-4
                         `}
                     >
-                        Rest assured, the help you seek awaits you with Caren Stewart.  As the guide for your journey, she will endow you with the skills that will get you to a destination you've longed to reach. Caren provides a sanctuary & an ear, so that you have a safe private eden to unload the troubles plaguing your mind & heart.  
+                        Rest assured, the help you seek awaits you with Jessie Doe.  As the guide for your journey, Jessie Doe will endow you with the skills that will get you to a destination you've longed to reach. Jessie Doe provides a sanctuary & an ear, so that you have a safe private eden to unload the troubles plaguing your heart & mind.  
                     </p>
                     <p
                         className={`
@@ -83,7 +83,7 @@ export const Introduction = ():JSX.Element => {
                             sm:w-4/5 sm:text-lg sm:px-4
                         `}
                     >
-                        Caren's honed experience & expertise, combined with impartial kindness, makes her someone who can make a difference. Reach out, so that she may impart on you the abilities needed to make you someone who can make a difference too.   
+                        Jessie Doe's honed experience & expertise, combined with impartial kindness, makes Jessie Doe someone who will make a difference. Reach out, so that Jessie Doe may impart on you the abilities needed to make you someone who will make a difference too.   
                     </p>
                 </div>
             </div>

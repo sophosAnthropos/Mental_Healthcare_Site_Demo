@@ -5,7 +5,7 @@ export const AddressAndPhone = () => {
                 className={`
                     w-[98%] h-1/3 text-purple-900 font-bold tracking-widest text-sm mt-1 flex flex-col justify-evenly border-l-4 border-t-4 rounded-tl-xl border-purple-800 fa-solid
 
-                    sm:w-1/4 sm:h-[85%] sm:text-xl sm:mt-0 
+                    sm:w-1/4 sm:h-[85%] sm:text-lg sm:mt-0 
                 `}
             >
                 <div
@@ -18,7 +18,7 @@ export const AddressAndPhone = () => {
                         className={`
                             w-[4%]
 
-                            sm:w-[5%] sm:h-2/3
+                            sm:w-[5%] sm:h-2/3 
                         `}
                     >
                         <img 
@@ -32,19 +32,19 @@ export const AddressAndPhone = () => {
                     <div
                         className={`
                             w-[85%] h-full
-                            sm:w-[85%] sm:pl-[1px]
+                            sm:w-[85%] sm:text-base
                         `}
                     >
                         <p
                             className={`
                                 text-center
                             `}
-                        >800 Legion Street, Suite 100E</p>
+                        >123 Healing Street, Suite 123</p>
                         <p
                             className={`
                                 w-[65%] h-[50%] flex justify-center items-end
                             `}
-                        >Conway, SC 29526</p>
+                        >City, State 12345</p>
                     </div>
                 </div>
                 <p
@@ -54,7 +54,7 @@ export const AddressAndPhone = () => {
                     `}
                 >
                     <span className={`fa-solid fa-phone pr-4`}></span>
-                    (843) 279-0092
+                    (123) 456-7890
                 </p>
             </section>
     )

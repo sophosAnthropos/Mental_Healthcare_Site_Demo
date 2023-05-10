@@ -5,7 +5,7 @@ export const Contact = () => {
     <>
       <div
         className={`
-          w-full h-auto px-3 py-4 flex items-center justify-center bg-[url('../../../src/assets/Images/About_BG.png')] bg-fit
+          w-full h-auto sm:px-3 sm:py-4 sm:flex sm:items-center sm:justify-center sm:bg-[url('../../../src/assets/Images/About_BG.png')] bg-fit
         `}
       >
         <ContactMain />

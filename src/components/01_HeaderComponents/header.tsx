@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { GetInTouchBtn } from './OtherHeaderSections/getInTouchBtn'
+import { GetInTouchBtn } from './OtherHeaderSections/03_getInTouchBtn'
 import { NavMenu } from './NavigationMenu/Nav'
-import { TitleSection } from './OtherHeaderSections/titleSection'
-import { TopInfoBar } from './OtherHeaderSections/topInfoBar'
+import { TitleSection } from './OtherHeaderSections/02_titleSection'
+import { TopInfoBar } from './OtherHeaderSections/01_topInfoBar'
 
 export const SiteHeader = () => {
     const [open, setOpen] = useState(false)

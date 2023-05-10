@@ -5,7 +5,7 @@ export const UpdateDailyHours = (): JSX.Element => {
 
         switch (new Date().getDay()) {
             case 0:
-                return 'Sun 8am - 4pm';
+                return 'Sun Closed';
             case 1:
                 return 'Mon 8am - 4pm';
             case 2:
@@ -15,7 +15,7 @@ export const UpdateDailyHours = (): JSX.Element => {
             case 4:
                 return 'Thur 8am - 4pm';
             case 5:
-                return 'Fri Closed';
+                return 'Fri 8am - 4pm';
             case 6:
                 return 'Sat Closed';
             default: 

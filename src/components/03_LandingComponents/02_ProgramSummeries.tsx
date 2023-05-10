@@ -12,7 +12,7 @@ export const ProgramSummeries = () => {
             className={`
                 w-full h-3/4 grid grid-cols-1 items-center justify-items-center
 
-                sm:rid-cols-4
+                sm:grid-cols-4
             `}
         >
             <ProSummeryCards 

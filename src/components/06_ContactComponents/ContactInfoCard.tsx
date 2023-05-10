@@ -4,66 +4,80 @@ export const ContactInfoCard = () => {
   return (
         <section
             className={`
-                w-1/2 h-full flex justify-center items-center bg-gradient-to-bl from-purple-100 to-purple-400
+                h-1/2 bg-gradient-to-bl from-purple-100 to-purple-400
+                sm:w-1/2 sm:h-full sm:flex sm:justify-center sm:items-center 
             `}
         >
             <div
                 className={`
-                    w-5/6 h-[95%] flex flex-col justify-center items-end border-4 border-blue-200 rounded-3xl bg-white bg-opacity-60 backdrop-blur-lg shadow-lg
+                    h-full flex flex-col justify-end border-y-4 border-blue-300 bg-white bg-opacity-60 backdrop-blur-lg shadow-lg
+                    
+                    sm:w-[85%] sm:h-[95%] sm:rounded-3xl sm:items-end sm:justify-evenly sm:border-4 sm:border-blue-200
                 `}
             >
                 <div
                     className={`
-                        w-[90%] h-[35%] text-3xl ezRead font-bold
+                        w-full h-1/4 ezRead font-bold grid grid-cols-2 place-items-center justify-items-end text-lg
+                        
+                        sm:flex sm:flex-col sm:justify-evenly
+                        sm:w-[90%] sm:h-[40%] sm:text-3xl
                     `}
                 >
                     <div
                         className={`
-                            w-full h-1/4  flex justify-start items-center text-purple-400
+                            w-full h-[90%] flex justify-center items-center text-purple-500 border-r-2 border-purple-300
+                            sm:w-full sm:h-1/4 sm:justify-start sm:border-none
                         `}
                     >
                         <h2
                             className={`
-                                fa-solid fa-phone text-2xl text-lime-400 mr-3 tracking-wider
+                                fa-solid fa-phone text-lime-500 tracking-wider mr-2
+                                sm:text-2xl sm:mr-3
                             `}
                         />
-                        <p>(843) 279-0092</p>
+                        <p>(123) 456-7890</p>
                     </div>
                     <div
                         className={`
-                            w-full h-1/4  flex justify-start items-end text-purple-400
+                             w-full h-[90%] flex justify-center items-center
+                            sm:w-full sm:h-1/4 sm:justify-start sm:items-center text-purple-500
                         `}
                     >
                         <h2
                             className={`
-                                fa-solid fa-fax text-2xl text-lime-400 mr-3 tracking-wider
+                                fa-solid fa-fax text-lime-500 tracking-wider mr-2
+                                sm:text-2xl sm:mr-3
                             `}
                         />
-                        <p>(843) 000-0000</p>
+                        <p>(123) 000-0000</p>
                     </div>
                     <div
                         className={`
-                            w-full h-1/2 flex justify-start items-center text-purple-400
+                            w-[95%] h-full col-span-2 flex justify-start items-end text-purple-500
+                            sm:w-full sm:h-1/3 sm:items-center
                         `}
                     >
                         <h2
                             className={`
-                                fa-solid fa-building text-2xl text-lime-400 mr-3 tracking-wider
+                                h-2/3 fa-solid fa-building sm:text-2xl text-lime-500 mr-3 tracking-wider
+                                sm:h-10
                             `}
                         />
                         <div
                             className={`
-                                w-[90%] h-4/5 flex flex-col justify-end leading-10
+                                w-[90%] h-[70%] flex flex-col items-start
+                                sm:w-[90%] sm:h-full sm:justify-end sm:leading-10 
                             `}
                         >
-                            <p>800 Legion Street</p>
-                            <p>Conway, South Carolina 29526</p>
+                            <p>123 Healing Street, Suite 123</p>
+                            <p>City, State 12345</p>
                         </div>
                     </div>
                 </div>
                 <div
                     className={`
-                        w-full h-1/2 flex items-center
+                        w-full h-2/3 flex items-center
+                        sm:h-1/2
                     `}
                 >
                     <div
@@ -78,7 +92,9 @@ export const ContactInfoCard = () => {
                         >
                             <h2
                                 className={`
-                                     w-5/6 flex justify-start items-center text-3xl ezRead font-bold tracking-wider pl-3 underline text-lime-400
+                                     w-full flex justify-start items-center text-2xl ezRead font-bold tracking-wider pl-3 underline text-lime-500
+                                     
+                                     sm:w-5/6 sm:text-3xl
                                 `}
                             >
                                 Hours
@@ -86,50 +102,51 @@ export const ContactInfoCard = () => {
                         </header>
                         <div
                             className={`
-                                h-4/5 flex flex-col justify-around items-end text-blue-400 font-bold
+                                h-4/5 flex flex-col justify-around items-end text-blue-500 font-bold  ezRead tracking-wider
+                                sm:text-2xl
                             `}
                         >
                             <p
                                 className={`
-                                    w-5/6 h-1/6 text-2xl ezRead tracking-wider
+                                    w-5/6 h-1/6
                                 `}
                             >
-                                Monday: <span className={`pl-3 text-purple-400 font-normal`}>8 a.m. - 4 p.m.</span>
+                                Monday: <span className={`pl-3 text-purple-500 font-normal`}>8 a.m. - 4 p.m.</span>
                             </p>
                             <p
                                 className={`
-                                    w-5/6 h-1/6 text-2xl ezRead tracking-wider
+                                    w-5/6 h-1/6
                                 `}
                             >
-                                Tuesday: <span className={`pl-3 text-purple-400 font-normal`}>8 a.m. - 4 p.m.</span>
+                                Tuesday: <span className={`pl-3 text-purple-500 font-normal`}>8 a.m. - 4 p.m.</span>
                             </p>
                             <p
                                 className={`
-                                    w-5/6 h-1/6 text-2xl ezRead tracking-wider
+                                    w-5/6 h-1/6
                                 `}
                             >
-                                Wednesday: <span className={`pl-3 text-purple-400 font-normal`}>8 a.m. - 4 p.m.</span>
+                                Wednesday: <span className={`pl-3 text-purple-500 font-normal`}>8 a.m. - 4 p.m.</span>
                             </p>
                             <p
                                 className={`
-                                    w-5/6 h-1/6 text-2xl ezRead tracking-wider
+                                    w-5/6 h-1/6
                                 `}
                             >
-                                Thursday: <span className={`pl-3 text-purple-400 font-normal`}>8 a.m. - 4 p.m.</span>
+                                Thursday: <span className={`pl-3 text-purple-500 font-normal`}>8 a.m. - 4 p.m.</span>
                             </p>
                             <p
                                 className={`
-                                    w-5/6 h-1/6 text-2xl ezRead tracking-wider
+                                    w-5/6 h-1/6
                                 `}
                             >
-                                Friday: <span className={`pl-3 text-purple-400 font-normal`}>8 a.m. - 4 p.m.</span>
+                                Friday: <span className={`pl-3 text-purple-500 font-normal`}>8 a.m. - 4 p.m.</span>
                             </p>
                             <p
                                 className={`
-                                    w-5/6 h-1/6 text-2xl ezRead tracking-wider
+                                    w-5/6 h-1/6
                                 `}
                             >
-                                Saturday - Sunday: <span className={`pl-3 text-purple-400 font-normal`}>CLOSED</span>
+                                Saturday - Sunday: <span className={`pl-3 text-purple-500 font-normal`}>CLOSED</span>
                             </p>
                         </div>
 

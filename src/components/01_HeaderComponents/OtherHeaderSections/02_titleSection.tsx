@@ -18,25 +18,16 @@ export const TitleSection = () => {
                     sm:text-3xl sm:font-semibold 
                 `}
             >
-                CAREN STEWART
+                JESSIE DOE
             </h1>
-            <p
-                className={`
-                    text-violet-800 text-lg font-bold
-                    
-                    sm:text-2xl sm:font-semibold 
-                `}
-            >
-                &
-            </p>
             <h1
                 className={`
-                text-violet-800 text-xl font-bold
+                text-violet-800 text-xl font-bold text-center
                 
-                sm:text-3xl sm:font-semibold  
+                sm:text-lg sm:font-semibold  
             `}
             >
-                ASSOCIATES
+                MENTAL HEALTH THERAPY
             </h1>
 
         </Link>

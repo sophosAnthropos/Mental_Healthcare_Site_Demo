@@ -7,7 +7,7 @@ export const FooterMain = (): JSX.Element => {
     return (
         <main
             className={`
-                h-[50%] bg-neutral-400 flex flex-col items-center justify-around
+                h-[55%] bg-neutral-400 flex flex-col items-center justify-around
                 sm:h-[40%] sm:flex-row
             `}
         >

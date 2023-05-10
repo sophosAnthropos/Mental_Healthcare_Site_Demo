@@ -22,7 +22,7 @@ export const TopInfoBar = () => {
                     className={`
                        w-full font-bold text-lime-100 text-center
                        
-                       sm:w-2/3
+                       sm:w-1/3 
                     `}
                 >
                     TODAYS HOURS: <UpdateDailyHours/>
@@ -32,13 +32,13 @@ export const TopInfoBar = () => {
                     className={`
                        w-full text-violet-800 text-center
 
-                       sm:w-1/3
+                       sm:w-1/2 sm:text-start
                     `}
                 >
                    <span
                    className={`
                        fa-solid fa-phone text-lime-100
-                   `} /> 843-279-0092
+                   `} /> 123-456-7890
                 </div>
 
             </div>
@@ -56,7 +56,7 @@ export const TopInfoBar = () => {
                     className={`
                         bg-white bg-opacity-60 flex items-center emergencyText
                         
-                        sm:w-full sm:h-full sm:justify-evenly sm:items-start sm:p-1 
+                        sm:w-full sm:h-full sm:justify-center sm:items-start
                     `}
                 >
 
@@ -64,14 +64,14 @@ export const TopInfoBar = () => {
                         className={`
                            w-3/4 text-end text-red-500 text-lg font-bold pr-2
 
-                           sm:text-center sm:pr-0 sm:SPH_Text
+                            sm:w-[55%] sm:h-full sm:text-center sm:pr-0 sm:SPH_Text
                         `}>
                         Suicide Prevention Hotline:
                     </a>
                     <p
                         className={`
-                           w-1/5 font-bold tracking-widest text-violet-900
-                           sm:h-full sm:SPH_Text sm:flex sm:items-end
+                           w-1/5 font-bold tracking-widest text-violet-900 font-sans
+                           sm:w-[25%] sm:h-full sm:SPH_Text sm:flex sm:items-start
                         `}>
                         988
                     </p>

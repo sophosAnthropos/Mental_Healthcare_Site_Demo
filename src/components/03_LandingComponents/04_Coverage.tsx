@@ -37,7 +37,7 @@ export const Coverage = () => {
                     sm:w-2/3 sm:h-1/2 sm:text-[1.5rem] sm:px-0
                 `}
             >
-                Request a free 15 min consultation when you call or email Caren E. Stewart
+                Request a free 15 min consultation when you call or email Jessie Doe
             </h3>
         </header>
         <main
