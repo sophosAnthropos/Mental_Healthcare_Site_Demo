@@ -1,7 +1,7 @@
 import { SubMenu } from "./NavItemSubMenu"
 import { Link } from "react-router-dom"
 
-export const NavItem = ({children}: {children: JSX.Element}): JSX.Element => {
+export const NavItem = ({children, open, close}: {children: JSX.Element, open: boolean, close: React.Dispatch<React.SetStateAction<boolean>>}): JSX.Element => {
 
     return (
         <li
@@ -10,6 +10,7 @@ export const NavItem = ({children}: {children: JSX.Element}): JSX.Element => {
 
                 sm:h-[90%]
             `}
+            onClick={() => {if (open) return close(!open)}}
         >
             <SubMenu>
                 {children}

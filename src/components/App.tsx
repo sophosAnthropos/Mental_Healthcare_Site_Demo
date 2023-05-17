@@ -4,6 +4,15 @@ import { SiteFooter } from './02_FooterComponents/Footer'
 import { MainContent } from './MainContent'
 
 
+
+function getCurrentDimension(){
+  return {
+      width: window.innerWidth,
+      height: window.innerHeight
+  }
+}
+
+
 export const App = (): JSX.Element => {
   
 
@@ -14,7 +23,9 @@ export const App = (): JSX.Element => {
 
               
         `}>
-            <SiteHeader/>
+            <SiteHeader
+              getScreen = {getCurrentDimension}
+            />
             <MainContent/>
             <SiteFooter/>
         </div>

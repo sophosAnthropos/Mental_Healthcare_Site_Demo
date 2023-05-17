@@ -1,10 +1,35 @@
-import React from "react"
 import { NavItem } from "./NavItem"
 import { Link } from "react-router-dom"
 
 
 
-export const NavMenu = ({open}: {open: boolean}): JSX.Element => {
+export const NavMenu = ({ open, close, getScreen }: {
+    open: boolean, 
+    close: React.Dispatch<React.SetStateAction<boolean>>,
+    getScreen: {width: number, height: number}
+}): JSX.Element => {
+
+    let homeButton: JSX.Element;
+
+    const AddHomeToNav = () => {
+        if (getScreen.width > 428) { homeButton = <></>} 
+        else {
+            homeButton = <NavItem
+                open = {open}
+                close = {close}
+            >
+                <Link to="/"
+                    className={`
+                        w-full h-full cuteScript tracking-widest text-2xl text-violet-800 flex flex-col items-center justify-center group-hover/openSub:text-violet-50
+                    `}
+                >
+                    <p>Home</p>
+                </Link>
+            </NavItem>
+        }
+        return homeButton
+    }
+    
 
     return (
         <nav
@@ -21,8 +46,12 @@ export const NavMenu = ({open}: {open: boolean}): JSX.Element => {
                    sm:flex-row sm:justify-around sm:items-center 
                 `}
             >
+                <AddHomeToNav/>
                 
-                <NavItem>
+                <NavItem
+                    open = {open}
+                    close = {close}
+                >
                     <Link to="/therapies"
                         className={`
                             w-full h-full cuteScript tracking-widest text-2xl text-violet-800 flex flex-col items-center justify-center group-hover/openSub:text-violet-50
@@ -33,7 +62,10 @@ export const NavMenu = ({open}: {open: boolean}): JSX.Element => {
                 </NavItem>
             
             
-                <NavItem>
+                <NavItem
+                    open = {open}
+                    close = {close}
+                >
                     <Link to="/about"
                         className={`
                             w-full h-full cuteScript tracking-widest text-2xl text-violet-800 flex flex-col items-center justify-center group-hover/openSub:text-violet-50
@@ -44,7 +76,10 @@ export const NavMenu = ({open}: {open: boolean}): JSX.Element => {
                 </NavItem>
             
             
-                <NavItem>
+                <NavItem
+                    open = {open}
+                    close = {close}
+                >
                     <Link to="/between_session"
                         className={`
                             w-full h-full cuteScript tracking-widest text-2xl text-violet-800 flex flex-col items-center justify-center group-hover/openSub:text-violet-50
@@ -55,7 +90,10 @@ export const NavMenu = ({open}: {open: boolean}): JSX.Element => {
                     </Link>
                 </NavItem>            
             
-                <NavItem>
+                <NavItem
+                    open = {open}
+                    close = {close}
+                >
                     <Link to="/contact"
                         className={`
                             w-full h-full cuteScript tracking-widest text-2xl text-violet-800 flex flex-col items-center justify-center group-hover/openSub:text-violet-50

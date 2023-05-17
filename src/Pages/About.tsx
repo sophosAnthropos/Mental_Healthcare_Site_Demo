@@ -5,7 +5,9 @@ export const About = (): JSX.Element => {
     <>
         <div
             className={`
-              h-[1200px] bg-violet-50 flex flex-col items-center justify-around
+              h-[2100px]
+
+              sm:h-[1200px] bg-violet-50 flex flex-col items-center justify-around
             `}
         >
             <StaffCards num={1} />

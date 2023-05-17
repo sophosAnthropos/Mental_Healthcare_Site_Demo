@@ -3,61 +3,81 @@ export const FaxEmailAndHotline = () => {
     return (
         <section
                 className={`
-                    w-[98%] h-1/3 text-purple-900 text-sm font-bold flex flex-col justify-evenly items-center
+                    w-[98%] h-1/3 flex flex-col justify-evenly items-center
+                    text-purple-900 text-sm font-bold fa-solid tracking-widest border-x-4 border-transparent
 
                     sm:w-1/3 sm:h-[80%] sm:text-lg sm:border-none
                 `}
             >
-                <p
+                <div
                     className={`
-                        w-[85%] h-1/3
-                        sm:w-[80%] sm:h-1/5
+                        w-full h-1/3 flex
+                        sm:w-[90%]
                     `}
                 >
-                    <span className={`fa-solid fa-fax pr-4`}>
-                        <span className={`pl-3`}>
-                            (123) 000-0000
-                        </span>
-                    </span>
-                    
-                </p>
-                <p
-                    className={`
-                        w-[85%] h-1/3
-                        sm:w-[80%] sm:h-1/5
-                    `}
-                >
-                    <span className={`fa-solid fa-envelope pr-4`}>
-                        <span className={`pl-3 tracking-widest`}>
-                            JDoe@JessieDoeTherarpy.com
-                        </span>
-                    </span>
-                    
-                </p>
-                <p
-                    className={`
-                        w-[95%] h-1/3 emergencyText text-red-600 flex justify-evenly items-center text-center text-base
-                          
-                        sm:w-[90%] sm:h-1/5 sm:text-2xl sm:justify-start
-                    `}
-                >
-                    <span
+                    <p 
                         className={`
-                            sm:w-[67%]
+                            fa-solid fa-fax w-[10%] h-full flex justify-center items-center
+                            sm:w-[15%]
+                        `}
+                    ></p>
+                    <p 
+                        className={`
+                            w-[90%] h-full flex items-center
+                            sm:w-[85%]
+                        `}
+                    >
+                        (123) 000-0000
+                    </p>
+                    
+                </div>
+                <div
+                    className={`
+                        w-full h-1/3 flex
+                        sm:w-[90%]
+                    `}
+                >
+                    <p 
+                        className={`
+                            fa-solid fa-envelope w-[10%] h-full flex justify-center items-center
+                            sm:w-[15%]
+                        `}
+                    ></p>
+                    <p 
+                        className={`
+                            w-[90%] h-full flex items-center
+                            sm:w-[85%]
+                        `}
+                    >
+                        JDoe@JessieDoeTherarpy.com
+                    </p>
+                    
+                </div>
+                <div
+                    className={`
+                        w-full h-1/3 emergencyText text-red-600 flex justify-evenly items-center text-center text-base
+                          
+                        sm:w-[90%] sm:text-2xl sm:justify-start
+                    `}
+                >
+                    <p
+                        className={`
+                            w-4/5 h-full flex items-center justify-center
+                            sm:w-[75%]
                         `}
                     >
                         SUICIDE PREVENTION HOTLINE:
-                    </span>
-                    <span
+                    </p>
+                    <p
                         className={`
-                            text-purple-900 font-sans font-semibold
-                            sm:w-[20%] sm:text-start
+                            w-1/5 h-full flex items-center text-purple-900 font-sans font-semibold
+                            sm:w-[12%] sm:justify-center
                         `}
                     >
                         988
-                    </span>
+                    </p>
                     
-                </p>
+                </div>
             </section>
     )
 }

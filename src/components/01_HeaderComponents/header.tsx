@@ -4,39 +4,51 @@ import { NavMenu } from './NavigationMenu/Nav'
 import { TitleSection } from './OtherHeaderSections/02_titleSection'
 import { TopInfoBar } from './OtherHeaderSections/01_topInfoBar'
 
-export const SiteHeader = () => {
+export const SiteHeader = (
+    {
+        getScreen
+    }: {
+        getScreen: ()=>{ width: number, height: number}
+    }
+) => {
+
+
     const [open, setOpen] = useState(false)
 
-  return (
-    <header
-        className={`
-            flex flex-col 
-            sm:w-full sm:h-[10rem] 
-        `}
-    >
-        <TopInfoBar/>
-        <div
+
+
+    return (
+        <header
             className={`
-                h-[6.2rem] flex items-center
-                
-                sm:h-[8rem] sm:flex sm:justify-between
-            `}  
+                flex flex-col 
+                sm:w-full sm:h-[10rem] 
+            `}
         >
-            <TitleSection/>
-            <button 
-                onClick={()=>{setOpen(!open)}}
+            <TopInfoBar/>
+            <div
                 className={`
-                    w-[2rem] h-[2rem] fixed top-4 right-5 text-lime-400 text-2xl z-[400] ${open ? "fa-solid fa-times" : "fa-solid fa-bars"}
+                    h-[6.2rem] flex items-center
+                    
+                    sm:h-[8rem] sm:flex sm:justify-between
+                `}  
+            >
+                <TitleSection/>
+                <button 
+                    onClick={()=>{setOpen(!open)}}
+                    className={`
+                        w-[2rem] h-[2rem] fixed top-4 right-5 text-lime-400 text-2xl z-[400] ${open ? "fa-solid fa-times" : "fa-solid fa-bars"}
 
-                    sm:hidden
-                `}
-            />
-            <NavMenu
-                open = {open}
-            />
-            <GetInTouchBtn/>
-        </div>
+                        sm:hidden
+                    `}
+                />
+                <NavMenu
+                    open = {open}
+                    close = {setOpen}
+                    getScreen = {getScreen()}
+                />
+                <GetInTouchBtn/>
+            </div>
 
-    </header>
-  )
+        </header>
+    )
 }

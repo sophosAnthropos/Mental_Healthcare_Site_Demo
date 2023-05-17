@@ -10,52 +10,67 @@ export const AddressAndPhone = () => {
             >
                 <div
                     className={`
-                        h-1/2
-                        sm:h-1/3 flex justify-center
+                        h-1/2 flex justify-center
+                        sm:h-1/3 sm:justify-start
                     `}
                 >
                     <div
                         className={`
-                            w-[4%]
+                            w-[10%] h-full flex justify-center items-center
+                            sm:w-[15%]
 
-                            sm:w-[5%] sm:h-2/3 
                         `}
                     >
                         <img 
                             src="../../../src/assets/Images/mapMarker.png" 
                             alt="purple and blue map marker" 
                             className={`
-                                
+                                w-1/3
+                                sm:w-[27%]
                             `}
                         />
                     </div>
                     <div
                         className={`
-                            w-[85%] h-full
+                            w-[90%] h-full flex flex-col justify-end
                             sm:w-[85%] sm:text-base
                         `}
                     >
                         <p
                             className={`
-                                text-center
+                                h-[37%] flex items-end
+                                sm:h-[35%]
                             `}
                         >123 Healing Street, Suite 123</p>
                         <p
                             className={`
-                                w-[65%] h-[50%] flex justify-center items-end
+                                w-full h-[37%] flex justify-start items-center
+                                sm:h-[35%]
                             `}
                         >City, State 12345</p>
                     </div>
                 </div>
-                <p
+                <div
                     className={`
-                        w-[55%] 
-                        sm:w-[60%] h-1/5  text-center
+                        w-full h-1/2 flex
+                        sm:h-1/4  
                     `}
                 >
-                    <span className={`fa-solid fa-phone pr-4`}></span>
-                    (123) 456-7890
-                </p>
+                    <p 
+                        className={`
+                            fa-solid fa-phone w-[10%] flex justify-center items-center
+                            sm:w-[15%] sm:h-full
+                        `}
+                    ></p>
+                    <p
+                        className={`
+                            w-[90%] flex items-center
+                            sm:w-[85%] sm:h-full
+                        `}
+                    >
+                        (123) 456-7890
+                    </p>
+                </div>
             </section>
     )
 }

@@ -12,7 +12,8 @@ export const InsuranceSection = () => {
             >
                 <div
                     className={`
-                        h-[12%] flex justify-center items-center text-3xl underline tracking-wide font-bold text-blue-400
+                        h-[12%] flex justify-center items-center text-2xl underline tracking-wide font-bold text-blue-400
+                        sm:text-4xl
                     `}
                 >
                     <h2>
