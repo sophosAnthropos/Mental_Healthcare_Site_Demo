@@ -20,6 +20,7 @@ export const App = (): JSX.Element => {
     <BrowserRouter>
         <div className={`
             w-full h-full bg-purple-50
+            sm:fullMonitorWidth
 
               
         `}>

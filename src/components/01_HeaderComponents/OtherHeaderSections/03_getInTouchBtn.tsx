@@ -6,7 +6,7 @@ export const GetInTouchBtn = () => {
         className={`
             w-1/3 h-full flex items-center
         
-            sm:w-1/5 
+            sm:headerTitleAndBtn border-blue-500
         `}
     >
         <button

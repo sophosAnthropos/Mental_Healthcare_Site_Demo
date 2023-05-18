@@ -8,7 +8,7 @@ export const ContactMain = () => {
     <div
         className={`
             h-[1200px]
-            sm:w-[80%] sm:h-[900px] sm:AbtContainer
+            sm:w-[80%] sm:h-[900px] sm:contactContainer
             
         `}
     >

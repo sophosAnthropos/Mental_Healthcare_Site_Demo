@@ -31,7 +31,7 @@ export const BasicCosts = () => {
                     className={`
                         font-bold tracking-wide text-purple-500 italic text-[1rem] pr-3
                     
-                        sm:text-[2rem]
+                        sm:text-[1.8rem]
                     `}
                 >Sliding Scale: </span> Yes
             </p>
@@ -51,7 +51,8 @@ export const BasicCosts = () => {
                 </p>
                 <ul
                     className={`
-                        w-3/4 h-2/3 grid grid-cols-2 pl-7 list-disc 
+                        w-3/4 h-2/3 grid grid-cols-2 pl-7 list-disc
+                        sm:w-full
                     `}
                 >
                     <li>Cash</li>

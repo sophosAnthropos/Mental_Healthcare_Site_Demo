@@ -7,22 +7,17 @@ export const SiteFooter = (): JSX.Element => {
         <footer
             className={`
                 h-[90vh]
-                sm:h-[70vh]
+                sm:fullMonitorWidth sm:h-[70vh]
             `}
         >
-            <div 
-                className={`
-                    h-[45%]
-                    sm:h-[60%] border-t-2 border-violet-800
-                `}
-            >
-                <TheMap/>
-            </div>
+            <TheMap />
+
             <FooterMain />
+
             <div
                 className={`
-
-                    sm:h-[7%] bg-violet-400 bg-opacity-55 flex justify-center
+                    h-[4%]
+                    sm:fullMonitorWidth sm:h-[6%] bg-violet-400 bg-opacity-55 flex justify-center
                 `}
             >
                 <p
@@ -34,7 +29,7 @@ export const SiteFooter = (): JSX.Element => {
                     Website Developed by Christopher Krause 
                     <span 
                         className={`
-                            pl-2
+                            w-[30px] h-full flex items-center justify-end
                         `}
                     
                     >

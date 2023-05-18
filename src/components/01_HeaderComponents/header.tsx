@@ -21,7 +21,7 @@ export const SiteHeader = (
         <header
             className={`
                 flex flex-col 
-                sm:w-full sm:h-[10rem] 
+                sm:fullMonitorWidth sm:h-[10rem] 
             `}
         >
             <TopInfoBar/>

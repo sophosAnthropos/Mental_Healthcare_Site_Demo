@@ -36,7 +36,7 @@ export const NavMenu = ({ open, close, getScreen }: {
             className={`
                 fixed top-0 z-[399] backdrop-blur-xl w-full h-full ${open ? "block" : "hidden"}
 
-                sm:w-1/2 sm:h-full sm:relative sm:block
+                sm:w-1/2 sm:h-full sm:relative sm:block border-blue-500
             `}
         >
             <ul

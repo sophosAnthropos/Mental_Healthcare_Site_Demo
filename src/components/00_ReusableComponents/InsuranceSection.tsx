@@ -35,41 +35,50 @@ export const InsuranceSection = () => {
                         `}
                     >
                         <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/BCBS.png'
-                            heights='h-2/3' 
-                        />
-                        <InsuranceCards 
                             source='../../../src/assets/Images/InsuranceLogos/Cigna.com.png'
                             heights='h-3/4'
-                        />
-                        <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/first-health.png'
-                            heights='h-2/3'
-                        />
-                        <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/Medicaid.png'
-                            heights='h-1/3' 
-                        />
-                        <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/molina.png'
-                            heights='h-1/2'
-                        />
-                        <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/selecthealth.png'
-                            heights='h-2/5' 
                         />
                         <InsuranceCards 
                             source='../../../src/assets/Images/InsuranceLogos/United_Healthcare.png'
                             heights='h-3/4'
                         />
+
+
                         <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/Cenpatico.png'
-                            heights='h-1/2' 
+                            source='../../../src/assets/Images/InsuranceLogos/BCBS.png'
+                            heights='h-2/3' 
+                        />
+                        <InsuranceCards 
+                            source='../../../src/assets/Images/InsuranceLogos/first-health.png'
+                            heights='h-2/3 sm:insuranceTwoThirdHeightImage'
                         />
                         <InsuranceCards 
                             source='../../../src/assets/Images/InsuranceLogos/wellcare.png'
-                            heights='h-2/3' 
+                            heights='h-2/3 sm:insuranceTwoThirdHeightImage' 
                         />
+
+
+                        <InsuranceCards 
+                            source='../../../src/assets/Images/InsuranceLogos/molina.png'
+                            heights='h-1/2'
+                        />
+                        <InsuranceCards 
+                            source='../../../src/assets/Images/InsuranceLogos/Cenpatico.png'
+                            heights='h-1/2 sm:insuranceHalfHeightImage ' 
+                        />
+
+
+                        <InsuranceCards 
+                            source='../../../src/assets/Images/InsuranceLogos/selecthealth.png'
+                            heights='h-2/5 sm:insuranceTwoFifthsHeightImage' 
+                        />
+
+
+                        <InsuranceCards 
+                            source='../../../src/assets/Images/InsuranceLogos/Medicaid.png'
+                            heights='h-1/3 sm:insuranceThirdHeightImage' 
+                        />
+                        
                     </div>
                 </div>
             </section>

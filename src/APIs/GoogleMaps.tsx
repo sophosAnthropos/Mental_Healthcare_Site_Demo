@@ -14,14 +14,20 @@ export const TheMap = (): JSX.Element => {
     if (!isLoaded) return <div>...Loading</div>
 
     return (
-        <GoogleMap 
-            zoom={19} 
-            center={coords} 
-            mapContainerClassName={`w-full h-full`}
+        <div 
+            className={`
+                h-[41%]
+                sm:h-[56%] border-t-2 border-violet-800
+            `}
         >
-            <MarkerF 
-                position={coords}
-            />
-        </GoogleMap>
+            <GoogleMap 
+                zoom={19} 
+                center={coords} 
+                mapContainerClassName={`w-full h-full`}
+            >
+                <MarkerF position={coords} />
+            </GoogleMap>
+        </div>
+        
     )
 }

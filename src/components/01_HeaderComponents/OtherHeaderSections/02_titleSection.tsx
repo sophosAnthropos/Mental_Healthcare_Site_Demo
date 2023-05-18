@@ -8,7 +8,7 @@ export const TitleSection = () => {
             className={`
                     w-3/5 h-full flex flex-col items-center justify-center easyRead tracking-wider
 
-                    sm:w-1/5 sm:p-4
+                    sm:headerTitleAndBtn sm:p-4 border-blue-500
                 `}
         >
             <h1

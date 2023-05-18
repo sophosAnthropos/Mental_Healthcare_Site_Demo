@@ -12,6 +12,7 @@
     *, *::after, *::before {
         box-sizing: border-box;
         margin: 0;
+        /* border: 1px solid red; */
     }
 
     /* 
@@ -53,11 +54,97 @@
 
 @layer components {
 
-    .AbtContainer {
+    /********* computer monitor responsiveness ***********/
+
+    .fullMonitorWidth {
+        width: clamp(1200px, 100%, 1920px);
+    }
+
+
+    /* header and footer */
+    .headerTitleAndBtn {
+        width: clamp(275px, 20%, 378.2px);
+    }
+
+    .footerAddressAndPhone {
+        width: clamp(398.5px, 25%, 472.75px);
+    }
+
+    .footerFaxEmailAndHotline {
+        width: clamp(444px, 33.3%, 630px);
+    }
+
+    .footerNavMenu {
+        width: clamp(300px, 25%, 472.75px);
+    }
+    
+
+
+    /* landing page */
+
+    .introImageContainer {
+        width: clamp(389.9px, 33.3%, 624.7px);
+    }
+
+    .introductionImage {
+        width: clamp(380px, 75%, 467px );
+    }
+
+    .introTxtAndBgContainer {
+        width: clamp(760.4px, 65%, 1221.9px );
+    }
+
+
+    .introTxtSegments {
+        width: clamp(750px, 80%, 972.4px );
+    }
+
+    .therapyProgramImage {
+        height: clamp(240px, 19vmax, 350px);
+    }
+
+
+    .therapyProgramHeadingContainer {
+        height: clamp(120px, 9vmax, 160px);
+    }
+
+    .therapyProgramHeading {
+        font-size: clamp(1.1rem, 1.3vw, 1.6rem);
+    }
+
+    .therapyProgramText {
+        font-size: clamp(.93rem, 1.2vw, 1.25rem);
+    }
+
+    .struggleCard {
+        width: clamp(253px, 89% , 400px);
+    }
+
+    .insuranceTwoThirdHeightImage {
+        height: clamp(75px, 6vmax, 100px);
+    }
+
+    .insuranceHalfHeightImage {
+        height: clamp(60px, 5vmax, 75px);
+    }
+
+    .insuranceTwoFifthsHeightImage {
+        height: clamp(45px, 4vmax, 60px);
+    }
+
+    .insuranceThirdHeightImage {
+        height: clamp(40px, 3vmax, 50px);
+    }
+
+
+
+    /* Contact Form Rotating Border */
+
+    .contactContainer {
         @apply relative overflow-hidden z-20 rounded-[50px]
     }
 
-    .AbtContainer::before {
+    .contactContainer::before {
         content: "";
         background-image: conic-gradient(
             transparent 280deg,

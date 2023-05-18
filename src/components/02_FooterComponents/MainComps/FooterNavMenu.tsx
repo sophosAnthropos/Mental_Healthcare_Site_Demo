@@ -5,13 +5,13 @@ export const FooterNavMenu = () => {
         <section
                 className={`
                     w-[98%] h-1/3 mb-1 border-b-4 border-r-4 border-purple-800 rounded-br-xl flex justify-end
-                    sm:w-1/4 sm:h-[80%] sm:mb-0 
+                    sm:footerNavMenu sm:h-[80%] sm:mb-0 
                 `}
             >
                 <ul
                     className={`
-                        w-[95%] h-full grid grid-cols-3 fa-solid tracking-widest text-sm text-blue-700
-                        sm:text-lg sm:grid-cols-2
+                        w-[99%] h-full grid grid-cols-3 fa-solid tracking-widest text-sm text-blue-700
+                        sm:w-full sm:text-lg sm:grid-cols-2
                     `}
                 >
                     <li

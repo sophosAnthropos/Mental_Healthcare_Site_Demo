@@ -7,12 +7,13 @@ export const ProSummeryCards = ({source, heading, bgNum, imgStyles, children}: {
     <div
         className={`
             w-full h-[40rem]
-            sm:h-[50rem] 
+            sm:h-[60rem] 
         `}
     >
         <div
             className={`
                 h-[40%] bg-blue-900 flex items-center justify-center
+                sm:therapyProgramImage
             `}
         >
             <img 
@@ -32,7 +33,7 @@ export const ProSummeryCards = ({source, heading, bgNum, imgStyles, children}: {
                 className={`
                     h-1/4 flex justify-center items-center text-xl ${bgNum === 1 ? 'text-blue-200' : 'text-blue-600'}
 
-                    sm:items-end sm:text-2xl
+                    sm:therapyProgramHeadingContainer sm:items-end sm:therapyProgramHeading
                     
                 `}
             >

@@ -25,7 +25,7 @@ export const ProgramSummeries = () => {
                     className={`
                         h-2/3 px-6 text-sm text-justify text-violet-100 tracking-wide leading-8 flex items-center
                     
-                        sm:text-lg sm:px-8
+                        sm:therapyProgramText sm:px-8
                     `}
                 >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eum voluptatem placeat rerum animi quas neque minus velit vitae quia! Enim, perferendis! Nostrum corporis voluptate adipisci similique, fugiat consequatur maiores delectus doloribus placeat inventore et non, reiciendis provident. Ipsam, aspernatur.
@@ -41,7 +41,7 @@ export const ProgramSummeries = () => {
                 className={`
                     h-2/3 px-6 text-sm text-justify text-violet-700 tracking-wide leading-8 flex items-center
                 
-                    sm:text-lg sm:px-8
+                    sm:therapyProgramText sm:px-8
                 `}
                 >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eum voluptatem placeat rerum animi quas neque minus velit vitae quia! Enim, perferendis! Nostrum corporis voluptate adipisci similique, fugiat consequatur maiores delectus doloribus placeat inventore et non, reiciendis provident. Ipsam, aspernatur.
@@ -57,7 +57,7 @@ export const ProgramSummeries = () => {
                     className={`
                         h-2/3 px-6 text-sm text-justify text-violet-100 tracking-wide leading-8 flex items-center
                     
-                        sm:text-lg sm:px-8
+                        sm:therapyProgramText sm:px-8
                     `}
                 >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eum voluptatem placeat rerum animi quas neque minus velit vitae quia! Enim, perferendis! Nostrum corporis voluptate adipisci similique, fugiat consequatur maiores delectus doloribus placeat inventore et non, reiciendis provident. Ipsam, aspernatur.
@@ -73,7 +73,7 @@ export const ProgramSummeries = () => {
                 className={`
                     h-2/3 px-6 text-sm text-justify text-violet-700 tracking-wide leading-8 flex items-center
                 
-                    sm:text-lg sm:px-8
+                    sm:therapyProgramText sm:px-8
                 `}
                 >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eum voluptatem placeat rerum animi quas neque minus velit vitae quia! Enim, perferendis! Nostrum corporis voluptate adipisci similique, fugiat consequatur maiores delectus doloribus placeat inventore et non, reiciendis provident. Ipsam, aspernatur.

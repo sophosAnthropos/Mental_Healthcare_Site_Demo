@@ -7,7 +7,7 @@ export const TopInfoBar = () => {
             className={`
                 h-[6rem] bg-violet-900 bg-opacity-40 flex flex-col justify-between items-center
 
-                sm:h-[2rem] sm:flex-row sm:justify-between
+                sm:fullMonitorWidth sm:h-[2rem] sm:flex-row
             `}
         >
             <div
@@ -20,9 +20,9 @@ export const TopInfoBar = () => {
 
                 <div
                     className={`
-                       w-full font-bold text-lime-100 text-center
+                       w-full font-bold text-lime-100 flex items-center justify-evenly 
                        
-                       sm:w-1/3 
+                       sm:w-[255px] sm:h-full
                     `}
                 >
                     TODAYS HOURS: <UpdateDailyHours/>
@@ -30,9 +30,9 @@ export const TopInfoBar = () => {
 
                 <div
                     className={`
-                       w-full text-violet-800 text-center
+                       w-full text-violet-800 flex items-center
 
-                       sm:w-1/2 sm:text-start
+                       sm:w-[150px] sm:h-full sm:justify-evenly
                     `}
                 >
                    <span
@@ -64,14 +64,14 @@ export const TopInfoBar = () => {
                         className={`
                            w-3/4 text-end text-red-500 text-lg font-bold pr-2
 
-                            sm:w-[55%] sm:h-full sm:text-center sm:pr-0 sm:SPH_Text
+                            sm:w-[280px] sm:h-full sm:text-center sm:pr-0 sm:SPH_Text
                         `}>
                         Suicide Prevention Hotline:
                     </a>
                     <p
                         className={`
                            w-1/5 font-bold tracking-widest text-violet-900 font-sans
-                           sm:w-[25%] sm:h-full sm:SPH_Text sm:flex sm:items-start
+                           sm:w-[125px] sm:h-full sm:SPH_Text sm:flex sm:items-start
                         `}>
                         988
                     </p>

@@ -26,7 +26,7 @@ export const StruggleCard = ({struggle, category}: {struggle: string, category: 
         className={`
             ${cat} w-full h-[55px] 
 
-            sm:w-[400px] sm:h-[75px] sm:rounded-[50px] sm:rounded-bl-[0px] sm:shadow-md sm:shadow-neutral-500 sm:hover:scale-[105%] sm:hover:shadow-neutral-400
+            sm:struggleCard sm:h-[75px] sm:rounded-[50px] sm:rounded-bl-[0px] sm:shadow-md sm:shadow-neutral-500 sm:hover:scale-[105%] sm:hover:shadow-neutral-400
         `}
     >
         <p

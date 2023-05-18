@@ -4,15 +4,14 @@ export const FaxEmailAndHotline = () => {
         <section
                 className={`
                     w-[98%] h-1/3 flex flex-col justify-evenly items-center
-                    text-purple-900 text-sm font-bold fa-solid tracking-widest border-x-4 border-transparent
+                    text-purple-900 text-sm font-bold fa-solid tracking-widest border-l-4 border-transparent
 
-                    sm:w-1/3 sm:h-[80%] sm:text-lg sm:border-none
+                    sm:footerFaxEmailAndHotline sm:h-[80%] sm:text-lg sm:border-none
                 `}
             >
                 <div
                     className={`
                         w-full h-1/3 flex
-                        sm:w-[90%]
                     `}
                 >
                     <p 
@@ -34,8 +33,7 @@ export const FaxEmailAndHotline = () => {
                 <div
                     className={`
                         w-full h-1/3 flex
-                        sm:w-[90%]
-                    `}
+                                            `}
                 >
                     <p 
                         className={`
@@ -57,7 +55,7 @@ export const FaxEmailAndHotline = () => {
                     className={`
                         w-full h-1/3 emergencyText text-red-600 flex justify-evenly items-center text-center text-base
                           
-                        sm:w-[90%] sm:text-2xl sm:justify-start
+                        sm:text-2xl sm:justify-start
                     `}
                 >
                     <p

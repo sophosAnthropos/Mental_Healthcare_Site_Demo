@@ -5,7 +5,7 @@ export const AddressAndPhone = () => {
                 className={`
                     w-[98%] h-1/3 text-purple-900 font-bold tracking-widest text-sm mt-1 flex flex-col justify-evenly border-l-4 border-t-4 rounded-tl-xl border-purple-800 fa-solid
 
-                    sm:w-1/4 sm:h-[85%] sm:text-lg sm:mt-0 
+                    sm:footerAddressAndPhone sm:h-[85%] sm:text-lg sm:mt-0 
                 `}
             >
                 <div
