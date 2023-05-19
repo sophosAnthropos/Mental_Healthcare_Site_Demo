@@ -103,7 +103,6 @@
         height: clamp(240px, 19vmax, 350px);
     }
 
-
     .therapyProgramHeadingContainer {
         height: clamp(120px, 9vmax, 160px);
     }
@@ -134,6 +133,54 @@
 
     .insuranceThirdHeightImage {
         height: clamp(40px, 3vmax, 50px);
+    }
+
+
+
+
+    /* About Page */
+
+    .aboutCardPersonOneImage {
+        width: clamp(200px, 15%, 250px);
+    }
+
+
+    .aboutCardPersonTwoImage {
+        width: clamp(310px, 32%, 400px);
+    }
+
+    .aboutCardHeader {
+        font-size: clamp(3.5rem, 4vw, 4.5rem);
+    }
+
+
+    .aboutCardPersonTextMain {
+        font-size: clamp(1rem, 1.1vw, 1.3rem);
+    }
+
+    .aboutCardPersonOneTextAlt {
+        font-size: clamp(1rem, 1.1vw, 1.2rem);
+    }
+
+
+
+
+    /* Contact Page */
+
+    .contactInfoMainText {
+        font-size: clamp(1.4rem, 1.6vw, 1.875rem);
+    }
+
+    .contactInfoAltText {
+        font-size: clamp(1.2rem, 1.3vw, 1.5rem);
+    }
+
+    .contactPageHours {
+        @apply pl-3 text-purple-500 font-normal
+    }
+
+    .contactFormHeader {
+        font-size: clamp(3rem, 3.1vw, 3.75rem);
     }
 
 

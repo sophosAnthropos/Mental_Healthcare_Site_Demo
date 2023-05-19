@@ -1,13 +1,13 @@
-import { StaffCards } from '../components/05_AboutComponents/StaffCards'
+import { StaffCards } from '../components/05_AboutComponents/01_StaffCards'
 
 export const About = (): JSX.Element => {
   return (
     <>
         <div
             className={`
-              h-[2100px]
+              h-[2500px]
 
-              sm:h-[1200px] bg-violet-50 flex flex-col items-center justify-around
+              sm:h-[1600px] bg-violet-50 flex flex-col items-center justify-around
             `}
         >
             <StaffCards num={1} />

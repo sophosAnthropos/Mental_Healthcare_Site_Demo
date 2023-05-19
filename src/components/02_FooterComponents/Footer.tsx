@@ -1,5 +1,5 @@
-import { TheMap } from "../../APIs/GoogleMaps"
 import { FooterMain } from "./FooterMain"
+import { GoogMap } from "./GooMap"
 
 export const SiteFooter = (): JSX.Element => {
 
@@ -10,7 +10,7 @@ export const SiteFooter = (): JSX.Element => {
                 sm:fullMonitorWidth sm:h-[70vh]
             `}
         >
-            <TheMap />
+            <GoogMap />
 
             <FooterMain />
 

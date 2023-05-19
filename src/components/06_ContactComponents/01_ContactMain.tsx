@@ -1,14 +1,14 @@
-import React from 'react'
-import { AddressAndPhone } from '../02_FooterComponents/MainComps/AddressAndPhone'
-import { ContactForm } from './ContactForm'
-import { ContactInfoCard } from './ContactInfoCard'
+import { ContactForm } from './05_ContactForm'
+import { ContactInfoCard } from './02_ContactInfoCard'
+
+
 
 export const ContactMain = () => {
   return (
     <div
         className={`
             h-[1200px]
-            sm:w-[80%] sm:h-[900px] sm:contactContainer
+            sm:w-[90%] sm:h-[900px] sm:contactContainer
             
         `}
     >
@@ -16,9 +16,10 @@ export const ContactMain = () => {
           className={`
             h-full
           
-            sm:w-[99.3%] sm:h-[98.6%] bg-purple-100 sm:rounded-[45px]
-            sm:relative sm:top-[50%] sm:left-[50%] sm:overflow-hidden
-            sm:translate-x-[-50%] sm:translate-y-[-50%] sm:z-20
+            sm:w-[99.3%] sm:h-[98.6%] 
+            bg-purple-100 sm:rounded-[45px]
+            sm:relative sm:top-[50%] sm:left-[50%] sm:z-20 sm:overflow-hidden
+            sm:translate-x-[-50%] sm:translate-y-[-50%] 
           `}
         >
             <div

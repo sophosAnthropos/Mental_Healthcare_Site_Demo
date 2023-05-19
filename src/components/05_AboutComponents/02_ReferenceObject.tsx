@@ -11,7 +11,7 @@ const cardTitles = (name:string, title:string) => {
                 className={`
                     text-3xl
                     w-full h-1/2 flex items-end justify-center text-lime-200 font-bold
-                    sm:items-center sm:text-7xl
+                    sm:items-center sm:aboutCardHeader
                 `}
             >
                 {name} 
@@ -20,7 +20,7 @@ const cardTitles = (name:string, title:string) => {
                 className={`
                     text-lg text-center
                     w-full h-1/2 flex items-center justify-center text-blue-50 font-bold
-                    sm:items-end sm:text-2xl
+                    sm:items-center sm:text-2xl
                 `}
             >
                 {title}
@@ -36,7 +36,7 @@ export const StaffReferences: Record<number, JSX.Element> = {
     1: 
         <article
             className={`
-                h-[90%] px-2
+                h-[70%] px-4
                 sm:w-3/4 sm:h-full sm:px-5 
             `}
         >
@@ -45,7 +45,7 @@ export const StaffReferences: Record<number, JSX.Element> = {
             <main
                 className={`
                     text-sm h-[85%] flex flex-col items-center justify-evenly text-violet-100 easyRead
-                    sm:h-[80%] sm:text-[1.3rem] sm:leading-7 sm:justify-center
+                    sm:h-[80%] sm:aboutCardPersonTextMain sm:leading-7 sm:justify-center
                 `}
             >
 
@@ -82,9 +82,9 @@ export const StaffReferences: Record<number, JSX.Element> = {
 
                 <div 
                     className={`
-                        w-full h-[37%] flex flex-col justify-between items-center 
+                        w-full h-[37%] flex flex-col justify-between items-center
                         
-                        sm:h-[45%] sm:justify-evenly sm:items-start sm:text-lg
+                        sm:h-[40%] sm:justify-start sm:items-start sm:aboutCardPersonOneTextAlt
                     `}
                 >
                         <p
@@ -99,7 +99,7 @@ export const StaffReferences: Record<number, JSX.Element> = {
                         <p
                             className={`
                                 w-full flex items-start text-justify font-semibold
-                                sm:h-[30%]
+                                sm:h-[40%] sm:items-center
                             `}
                         >
                             Jessie Doe's repertoire allows switching or blending therapies, to find greater success in your treatment. Jessie Doe encourages sticking with the medications that work best for you while you do these therapies to raise you success even further.  
@@ -111,13 +111,15 @@ export const StaffReferences: Record<number, JSX.Element> = {
                 <div 
                     className={` 
                         w-full h-1/3 flex flex-col justify-evenly
+                        
                         sm:h-[30%] sm:justify-evenly
                     `}
                 >
                         <p
                             className={`
                                 w-full font-semibold text-blue-700
-                                sm:h-[25%] sm:text-blue-200
+                                
+                                sm:h-[18%] sm:text-blue-200
                             `}
                         >
                             Jessie Doe's areas of specialty are mood & personality disorders  
@@ -126,7 +128,8 @@ export const StaffReferences: Record<number, JSX.Element> = {
                         <h3
                             className={`
                                 w-full flex items-center pl-5 italic font-semibold text-lime-200
-                                sm:h-[25%]
+                                
+                                sm:h-[18%]
                             `}
                         >
                             i.e.
@@ -135,7 +138,8 @@ export const StaffReferences: Record<number, JSX.Element> = {
                         <ul
                             className={`
                                 w-full  pl-10 grid grid-cols-1 justify-items-start list-disc text-sm font-semibold text-lime-200
-                                sm:h-[50%] sm:grid-cols-4 sm:text-[1rem] sm:place-content-evenly
+
+                                sm:h-[64%] sm:grid-cols-4 sm:text-[1rem] sm:place-content-evenly
                             `}
                         >
                             <li> Major Depressive Disorder </li>
@@ -164,7 +168,7 @@ export const StaffReferences: Record<number, JSX.Element> = {
     2:
         <article
             className={`
-                h-[90%] px-2
+                h-[70%] px-4
                 sm:w-3/4 sm:h-full sm:px-5
             `}
         >
@@ -172,7 +176,7 @@ export const StaffReferences: Record<number, JSX.Element> = {
             <main
                 className={`
                     text-sm h-[85%] flex flex-col items-center justify-evenly text-violet-100 easyRead
-                    sm:h-3/4 sm:text-[1.3rem] sm:leading-7
+                    sm:h-3/4 sm:aboutCardPersonTextMain sm:leading-7
                 `}
             >
                 <p

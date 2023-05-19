@@ -12,17 +12,17 @@ export const TopInfoBar = () => {
         >
             <div
                 className={`
-                    w-full h-2/3 flex flex-col justify-evenly items-center text-sm font-bold tracking-wide
+                    w-full h-2/3 flex flex-col justify-evenly items-center text-sm font-bold tracking-wide 
 
-                    sm:w-[65%] sm:h-full sm:flex-row
+                    sm:w-[65%] sm:h-full sm:flex-row sm:items-center
                 `}
             >
 
                 <div
                     className={`
-                       w-full font-bold text-lime-100 flex items-center justify-evenly 
+                       w-[260px] font-bold text-lime-200 flex items-center justify-evenly
                        
-                       sm:w-[255px] sm:h-full
+                       sm:w-[255px] sm:h-full sm:justify-evenly
                     `}
                 >
                     TODAYS HOURS: <UpdateDailyHours/>
@@ -30,15 +30,18 @@ export const TopInfoBar = () => {
 
                 <div
                     className={`
-                       w-full text-violet-800 flex items-center
+                       w-[260px] text-violet-800 flex items-center justify-center 
 
                        sm:w-[150px] sm:h-full sm:justify-evenly
                     `}
                 >
-                   <span
-                   className={`
-                       fa-solid fa-phone text-lime-100
-                   `} /> 123-456-7890
+                    <span
+                        className={`
+                            fa-solid fa-phone w-[38px] h-full flex justify-end items-center text-lime-200 pr-2
+                            
+                        `} 
+                    /> 
+                    123-456-7890
                 </div>
 
             </div>
