@@ -99,7 +99,7 @@ Error generating stack: `+i.message+`
                             w-full h-full cuteScript tracking-widest text-2xl text-violet-800 flex flex-col items-center justify-center group-hover/openSub:text-violet-50
                         `,children:[a("p",{children:"BETWEEN"}),a("p",{children:"SESSIONS"})]})}),a(jn,{open:e,close:t,children:a($t,{to:"/contact",className:`
                             w-full h-full cuteScript tracking-widest text-2xl text-violet-800 flex flex-col items-center justify-center group-hover/openSub:text-violet-50
-                        `,children:a("p",{children:"CONTACT"})})})]})})},Om=()=>k($t,{to:"/",className:`
+                        `,children:a("p",{children:"CONTACT"})})})]})})},Om=()=>k($t,{to:"/Mental_Healthcare_Site_Demo/",className:`
                     w-3/5 h-full flex flex-col items-center justify-center easyRead tracking-wider
 
                     sm:headerTitleAndBtn sm:p-4 border-blue-500
