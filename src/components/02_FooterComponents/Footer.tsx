@@ -7,7 +7,7 @@ export const SiteFooter = (): JSX.Element => {
         <footer
             className={`
                 h-[90vh]
-                sm:fullMonitorWidth sm:h-[70vh]
+                sm:fullMonitorWidth sm:h-[756px]
             `}
         >
             <GoogMap />

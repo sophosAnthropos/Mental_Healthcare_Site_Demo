@@ -1,10 +1,13 @@
 import React from 'react'
+import PlaceholderImage from "../../assets/Images/01_LandingPageImages/Intro/ImgPlaceholder.png"
+
+
 
 export const Introduction = ():JSX.Element => {
   return (
     <div
         className={`
-            w-full h-[1000px] flex flex-col
+            w-full h-[1000px] flex flex-col justify-center
 
             sm:fullMonitorWidth sm:h-[600px] sm:flex-row sm:py-7
         `}
@@ -17,7 +20,7 @@ export const Introduction = ():JSX.Element => {
             `}
         >
             <img 
-                src="../../../src/assets/Images/ImgPlaceholder.png" 
+                src={PlaceholderImage} 
                 alt="Placeholder image green gumdrop blob with cute eyes"
                 className={`
                     
@@ -39,7 +42,7 @@ export const Introduction = ():JSX.Element => {
         >
             <div
                 className={`
-                    sm:w-[200%] sm:h-[200%] sm:bg-[url("../../../src/assets/Images/BgConceptTest.jpg")] sm:bg-cover
+                    sm:w-[200%] sm:h-[200%] sm:bg-landingIntroBG sm:bg-cover
                 `}
             >
                 <div

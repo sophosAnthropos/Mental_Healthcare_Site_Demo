@@ -1,5 +1,9 @@
 import React from 'react'
 import { ProSummeryCards } from '../00_ReusableComponents/ProSummeryCards'
+import CBTImage from '../../assets/Images/01_LandingPageImages/Programs/Cognitive-Behavioral-Therapy-CBT.png'
+import DBTImage from '../../assets/Images/01_LandingPageImages/Programs/Dialetical-Behavioral-Therapy-DBT.png'
+import PsychoDynamicImage from '../../assets/Images/01_LandingPageImages/Programs/psychodynamic.jpg'
+import SolutionFocusedImage from '../../assets/Images/01_LandingPageImages/Programs/Puzzle.jpg'
 
 export const ProgramSummeries = () => {
   return (
@@ -16,7 +20,7 @@ export const ProgramSummeries = () => {
             `}
         >
             <ProSummeryCards 
-                source='../../../src/assets/Images/Cognitive-Behavioral-Therapy-CBT.png' 
+                source={CBTImage} 
                 heading='Cognitive Behavioral Therapy CBT' 
                 bgNum={1}
                 imgStyles='w-full h-full'
@@ -32,7 +36,7 @@ export const ProgramSummeries = () => {
                 </p>
             </ProSummeryCards>
             <ProSummeryCards 
-                source='../../../src/assets/Images/Dialetical-Behavioral-Therapy-DBT.png' 
+                source={DBTImage} 
                 heading='Dialetical Behavioral Therapy DBT' 
                 bgNum={2}
                 imgStyles='w-[80%] h-[95%]'
@@ -48,7 +52,7 @@ export const ProgramSummeries = () => {
                 </p>
             </ProSummeryCards>
             <ProSummeryCards 
-                source='../../../src/assets/Images/Puzzle.jpg' 
+                source={SolutionFocusedImage} 
                 heading='Solution Focused Brief Therapy SFBT' 
                 bgNum={1}
                 imgStyles='w-full h-full'
@@ -64,7 +68,7 @@ export const ProgramSummeries = () => {
                 </p>
             </ProSummeryCards>
             <ProSummeryCards 
-                source='../../../src/assets/Images/psychodynamic.jpg' 
+                source={PsychoDynamicImage} 
                 heading='Psycho-Dynamic Therapy' 
                 bgNum={2}
                 imgStyles='w-full h-full'

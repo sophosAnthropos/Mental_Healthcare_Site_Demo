@@ -1,3 +1,5 @@
+import mapMarker from '../../../assets/Images/mapMarker.png'
+
 export const AddressAndPhone = () => {
 
     return (
@@ -22,7 +24,7 @@ export const AddressAndPhone = () => {
                         `}
                     >
                         <img 
-                            src="../../../src/assets/Images/mapMarker.png" 
+                            src={mapMarker} 
                             alt="purple and blue map marker" 
                             className={`
                                 w-1/3

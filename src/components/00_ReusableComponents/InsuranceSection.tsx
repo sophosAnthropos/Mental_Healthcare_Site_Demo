@@ -1,5 +1,14 @@
 import React from 'react'
 import { InsuranceCards } from './InsuranceCards'
+import bcbs from '../../assets/Images/04_InsuranceLogos/BCBS.png'
+import cenpatico from '../../assets/Images/04_InsuranceLogos/Cenpatico.png'
+import cigna from '../../assets/Images/04_InsuranceLogos/Cigna.com.png'
+import firstHealth from '../../assets/Images/04_InsuranceLogos/first-health.png'
+import medicaid from '../../assets/Images/04_InsuranceLogos/Medicaid.png'
+import molina from '../../assets/Images/04_InsuranceLogos/molina.png'
+import selectHealth from '../../assets/Images/04_InsuranceLogos/selecthealth.png'
+import unitedHC from '../../assets/Images/04_InsuranceLogos/United_Healthcare.png'
+import wellcare from '../../assets/Images/04_InsuranceLogos/wellcare.png'
 
 export const InsuranceSection = () => {
     return (
@@ -35,47 +44,47 @@ export const InsuranceSection = () => {
                         `}
                     >
                         <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/Cigna.com.png'
+                            source={cigna}
                             heights='h-3/4'
                         />
                         <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/United_Healthcare.png'
+                            source={unitedHC}
                             heights='h-3/4'
                         />
 
 
                         <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/BCBS.png'
+                            source={bcbs}
                             heights='h-2/3' 
                         />
                         <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/first-health.png'
+                            source={firstHealth}
                             heights='h-2/3 sm:insuranceTwoThirdHeightImage'
                         />
                         <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/wellcare.png'
+                            source={wellcare}
                             heights='h-2/3 sm:insuranceTwoThirdHeightImage' 
                         />
 
 
                         <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/molina.png'
+                            source={molina}
                             heights='h-1/2'
                         />
                         <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/Cenpatico.png'
+                            source={cenpatico}
                             heights='h-1/2 sm:insuranceHalfHeightImage ' 
                         />
 
 
                         <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/selecthealth.png'
+                            source={selectHealth}
                             heights='h-2/5 sm:insuranceTwoFifthsHeightImage' 
                         />
 
 
                         <InsuranceCards 
-                            source='../../../src/assets/Images/InsuranceLogos/Medicaid.png'
+                            source={medicaid}
                             heights='h-1/3 sm:insuranceThirdHeightImage' 
                         />
                         

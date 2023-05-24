@@ -1,5 +1,7 @@
 import React from 'react'
 import { StaffReferences } from './02_ReferenceObject'
+import PersonOneImage from '../../assets/Images/02_AboutPageImages/personOne.png'
+import PersonTwoImage from '../../assets/Images/02_AboutPageImages/personTwo.png'
 
 export const StaffCards = ({num}: {num: number}): JSX.Element => {
 
@@ -22,7 +24,7 @@ export const StaffCards = ({num}: {num: number}): JSX.Element => {
                             sm:aboutCardPersonOneImage sm:h-full
                         `}
                     >
-                        <img src="../../../src/assets/Images/personOne.png" alt="green gumdrop with black eyes" />
+                        <img src={PersonOneImage} alt="green gumdrop with black eyes" />
                     </aside>
                     {StaffReferences[num]}
                 </> 
@@ -36,7 +38,7 @@ export const StaffCards = ({num}: {num: number}): JSX.Element => {
                             sm:aboutCardPersonTwoImage sm:h-full sm:justify-center
                         `}
                     >
-                        <img src="../../../src/assets/Images/personTwo.png" alt="green gumdrop with black eyes" />
+                        <img src={PersonTwoImage} alt="green gumdrop with black eyes" />
                     </aside>
                     {StaffReferences[num]}
 

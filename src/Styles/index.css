@@ -57,7 +57,7 @@
     /********* computer monitor responsiveness ***********/
 
     .fullMonitorWidth {
-        width: clamp(1200px, 100%, 1920px);
+        width: clamp(1200px, 100%, 2500px);
     }
 
 
