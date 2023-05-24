@@ -341,7 +341,7 @@ Error generating stack: `+i.message+`
                     `,children:"Alex Doe is also someone who utilizes the therapies for their own struggles, & understands what it is like on the other side of the desk. As a result Alex Doe keeps the facility area warm & welcoming by providing a positively friendly but a down to earth interaction."}),a("p",{className:`
                         w-[95%] h-[25%] flex items-center text-justify font-semibold text-lime-200
                         sm:h-[20%]
-                    `,children:"Proudly, Alex Doe volunteers time to organizations involved with local drives & fundraisers revolving around issues of mental health and disorders.  Alex encourages you to inquire about the local organizations, as community is one more opportunity to improve your ability to succeed on your journey."})]})]})},Qm="./personOne-dc7cdeaa.png",Km="./personTwo-09fb4e67.png",Lu=({num:e})=>a("div",{className:`
+                    `,children:"Proudly, Alex Doe volunteers time to organizations involved with local drives & fundraisers revolving around issues of mental health and disorders.  Alex encourages you to inquire about the local organizations, as community is one more opportunity to improve your ability to succeed on your journey."})]})]})},Qm="./assets/personOne-dc7cdeaa.png",Km="personTwo-09fb4e67.png",Lu=({num:e})=>a("div",{className:`
             w-[95%] h-[1200px] flex flex-col items-center justify-around border-[1px] ${e%2!=0?"bg-violet-400 border-violet-700 shadow-violet-900":"bg-blue-400 border-blue-700 shadow-blue-900"}  rounded-xl shadow-md 
 
             sm:flex-row sm:w-[90%] sm:h-[48%]
@@ -669,7 +669,7 @@ Error generating stack: `+i.message+`
 
                             sm:w-[99%]
                             
-                        `,children:"THERAPIES"})}),a(oh,{}),a(sh,{}),a(xh,{})]})]}),Sh="./Page_In_Development-f72dfdb6.png",Xc=()=>k("div",{className:`
+                        `,children:"THERAPIES"})}),a(oh,{}),a(sh,{}),a(xh,{})]})]}),Sh="assests/Page_In_Development-f72dfdb6.png",Xc=()=>k("div",{className:`
                 w-full h-[800px] bg-yellow-100 flex flex-col justify-evenly items-center
             `,children:[a("h1",{className:`
                     w-1/2 h-[60px] flex justify-center items-center text-5xl cuteScript tracking-widest font-bold text-neutral-600
