@@ -158,7 +158,7 @@ Error generating stack: `+i.message+`
                         w-[2rem] h-[2rem] fixed top-4 right-5 text-lime-400 text-2xl z-[400] ${t?"fa-solid fa-times":"fa-solid fa-bars"}
 
                         sm:hidden
-                    `}),a(Dm,{open:t,close:n,getScreen:e()}),a(Rm,{})]})]})},Um="/assets/mapMarker-ee49b4ff.png",Bm=()=>k("section",{className:`
+                    `}),a(Dm,{open:t,close:n,getScreen:e()}),a(Rm,{})]})]})},Um="./assets/mapMarker-ee49b4ff.png",Bm=()=>k("section",{className:`
                     w-[98%] h-1/3 text-purple-900 font-bold tracking-widest text-sm mt-1 flex flex-col justify-evenly border-l-4 border-t-4 rounded-tl-xl border-purple-800 fa-solid
 
                     sm:footerAddressAndPhone sm:h-[85%] sm:text-lg sm:mt-0 
@@ -341,7 +341,7 @@ Error generating stack: `+i.message+`
                     `,children:"Alex Doe is also someone who utilizes the therapies for their own struggles, & understands what it is like on the other side of the desk. As a result Alex Doe keeps the facility area warm & welcoming by providing a positively friendly but a down to earth interaction."}),a("p",{className:`
                         w-[95%] h-[25%] flex items-center text-justify font-semibold text-lime-200
                         sm:h-[20%]
-                    `,children:"Proudly, Alex Doe volunteers time to organizations involved with local drives & fundraisers revolving around issues of mental health and disorders.  Alex encourages you to inquire about the local organizations, as community is one more opportunity to improve your ability to succeed on your journey."})]})]})},Qm="/assets/personOne-dc7cdeaa.png",Km="/assets/personTwo-09fb4e67.png",Lu=({num:e})=>a("div",{className:`
+                    `,children:"Proudly, Alex Doe volunteers time to organizations involved with local drives & fundraisers revolving around issues of mental health and disorders.  Alex encourages you to inquire about the local organizations, as community is one more opportunity to improve your ability to succeed on your journey."})]})]})},Qm="./assets/personOne-dc7cdeaa.png",Km="./assets/personTwo-09fb4e67.png",Lu=({num:e})=>a("div",{className:`
             w-[95%] h-[1200px] flex flex-col items-center justify-around border-[1px] ${e%2!=0?"bg-violet-400 border-violet-700 shadow-violet-900":"bg-blue-400 border-blue-700 shadow-blue-900"}  rounded-xl shadow-md 
 
             sm:flex-row sm:w-[90%] sm:h-[48%]
@@ -476,7 +476,7 @@ Error generating stack: `+i.message+`
           sm:px-3 sm:py-4 
           sm:flex sm:items-center sm:justify-center 
           sm:bg-contactBG sm:bg-fit
-        `,children:a(qm,{})})}),eh="/assets/ImgPlaceholder-6dcaea53.png",th=()=>k("div",{className:`
+        `,children:a(qm,{})})}),eh="./assets/ImgPlaceholder-6dcaea53.png",th=()=>k("div",{className:`
             w-full h-[1000px] flex flex-col justify-center
 
             sm:fullMonitorWidth sm:h-[600px] sm:flex-row sm:py-7
@@ -530,7 +530,7 @@ Error generating stack: `+i.message+`
 
                     sm:therapyProgramHeadingContainer sm:items-end sm:therapyProgramHeading
                     
-                `,children:t}),l]})]}),nh="/assets/Cognitive-Behavioral-Therapy-CBT-7bce8489.png",rh="/assets/Dialetical-Behavioral-Therapy-DBT-24da4672.png",lh="/assets/psychodynamic-194e39c8.jpg",ih="/assets/Puzzle-108f31c9.jpg",oh=()=>a("div",{className:`
+                `,children:t}),l]})]}),nh="./assets/Cognitive-Behavioral-Therapy-CBT-7bce8489.png",rh="./assets/Dialetical-Behavioral-Therapy-DBT-24da4672.png",lh="./assets/psychodynamic-194e39c8.jpg",ih="./assets/Puzzle-108f31c9.jpg",oh=()=>a("div",{className:`
             w-full
         `,children:k("div",{className:`
                 w-full h-3/4 grid grid-cols-1 items-center justify-items-center
@@ -611,7 +611,7 @@ Error generating stack: `+i.message+`
                 sm:w-[90%] sm:h-[150px]
             `,children:a("img",{src:e,alt:"",className:`
                     ${t}
-                `})}),ah="/assets/BCBS-c0955471.png",ch="/assets/Cenpatico-27aa6d25.png",fh="/assets/Cigna.com-628591a6.png",dh="/assets/first-health-e385586f.png",ph="/assets/Medicaid-66241eec.png",mh="/assets/molina-a03fbf41.png",hh="/assets/selecthealth-78378e85.png",gh="/assets/United_Healthcare-d0175302.png",vh="/assets/wellcare-066011a1.png",yh=()=>k("section",{className:`
+                `})}),ah="./assets/BCBS-c0955471.png",ch="./assets/Cenpatico-27aa6d25.png",fh="./assets/Cigna.com-628591a6.png",dh="./assets/first-health-e385586f.png",ph="./assets/Medicaid-66241eec.png",mh="./assets/molina-a03fbf41.png",hh="./assets/selecthealth-78378e85.png",gh="./assets/United_Healthcare-d0175302.png",vh="./assets/wellcare-066011a1.png",yh=()=>k("section",{className:`
                     w-full h-[600px] flex flex-col ezRead pt-5
 
                     sm:w-[69%] sm:h-full sm:justify-center sm:pt-0
@@ -669,7 +669,7 @@ Error generating stack: `+i.message+`
 
                             sm:w-[99%]
                             
-                        `,children:"THERAPIES"})}),a(oh,{}),a(sh,{}),a(xh,{})]})]}),Sh="/assets/Page_In_Development-f72dfdb6.png",Xc=()=>k("div",{className:`
+                        `,children:"THERAPIES"})}),a(oh,{}),a(sh,{}),a(xh,{})]})]}),Sh="./assets/Page_In_Development-f72dfdb6.png",Xc=()=>k("div",{className:`
                 w-full h-[800px] bg-yellow-100 flex flex-col justify-evenly items-center
             `,children:[a("h1",{className:`
                     w-1/2 h-[60px] flex justify-center items-center text-5xl cuteScript tracking-widest font-bold text-neutral-600
@@ -677,7 +677,7 @@ Error generating stack: `+i.message+`
                     
                 `})]}),kh=()=>a(_e,{children:a(Xc,{})}),Nh=()=>a(_e,{children:a(Xc,{})}),Eh=()=>a("main",{className:`
                  w-full h-auto flex flex-col items-center
-              `,children:k(km,{children:[a(At,{path:"/",element:a(wh,{})}),a(At,{path:"/about",element:a(Ym,{})}),a(At,{path:"/contact",element:a(bm,{})}),a(At,{path:"/therapies",element:a(kh,{})}),a(At,{path:"/between_session",element:a(Nh,{})})]})});function Ch(){return{width:window.innerWidth,height:window.innerHeight}}const Ph=()=>a(_m,{children:k("div",{className:`
+              `,children:k(km,{children:[a(At,{path:"/Mental_Healthcare_Site_Demo/",element:a(wh,{})}),a(At,{path:"/about",element:a(Ym,{})}),a(At,{path:"/contact",element:a(bm,{})}),a(At,{path:"/therapies",element:a(kh,{})}),a(At,{path:"/between_session",element:a(Nh,{})})]})});function Ch(){return{width:window.innerWidth,height:window.innerHeight}}const Ph=()=>a(_m,{children:k("div",{className:`
             w-full h-full bg-purple-50
             sm:fullMonitorWidth
 
